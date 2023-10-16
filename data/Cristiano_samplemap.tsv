@@ -1,0 +1,539 @@
+Patient	sample	tfx	Patient Type	Sample Type	Timepoint	Timepoint after treatment	Age at Diagnosis	Gender	Stage	TNM Staging	Site of Primary Tumor	Histopathological Diagnosis	Degree of Differentiation	Location of Metastases at Diagnosis	Volume of Plasma (ml)	cfDNA Extracted (ng/ml)	cfDNA Input (ng/ml)	Whole Genome Fragment Profile  Analysis	Targeted Fragment Profile Analysis	Targeted Mutation Analysis	batch_id	Stage+M
+CGCRC291	EE87865	0.2528	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	69	F	IV	T3N2M1	Coecum	Adenocarcinoma	Moderate	Synchronous Liver	7.9	7.8	7.8	Y	Y	Y	HWI-D00419_850_1	IV+M
+CGCRC292	EE87866	0.009116	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	51	M	IV	T3N2M1	Sigmoid Colon	Adenocarcinoma	Moderate	Synchronous Liver, Lung	7.9	6.73	6.73	Y	Y	Y	HWI-D00419_850_1	IV+M
+CGCRC293	EE87867	0.02104	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	55	M	IV	T3N2M1	Rectum	Adenocarcinoma	Moderate	Synchronous Liver	7.2	3.83	3.83	Y	Y	Y	HISEQ_173_7	IV+M
+CGCRC294	EE87868	0.01204	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	67	F	II	T3N0M0	Sigmoid Colon	Adenocarcinoma	Moderate	None	8.4	18.87	18.87	Y	Y	Y	HWI-D00419_855_1	II
+CGCRC296	EE87869	0.007359	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	76	F	II	T4N0M0	Coecum	Adenocarcinoma	Poor	None	4.3	31.24	31.24	Y	Y	Y	HWI-D00792_378_3	II
+CGCRC299	EE87870	0.01432	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	71	M	I	T1N0M0	Rectum	Adenocarcinoma	Moderate	None	8.8	10.18	10.18	Y	Y	Y	HWI-D00792_378_2	I
+CGCRC300	EE87871	0.01047	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	65	M	I	T2N0M0	Rectum	Adenocarcinoma	Moderate	None	4.3	10.48	10.48	Y	Y	Y	HISEQ_173_7	I
+CGCRC301	EE87872	0.004783	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	76	F	I	T2N0M0	Rectum	Adenocarcinoma	Moderate	None	4.1	6.51	6.51	Y	Y	Y	HWI-D00419_857_2	I
+CGCRC302	EE87873	0.009864	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	73	M	II	T3N0M0	Transverse Colon	Adenocarcinoma	Moderate	None	4.3	52.13	52.13	Y	Y	Y	HWI-D00792_378_6	II
+CGCRC304	EE87874	0.01964	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	86	F	II	T3N0M0	Rectum	Adenocarcinoma	Moderate	None	4.1	30.19	30.19	Y	Y	Y	HWI-D00419_1525_1	II
+CGCRC305	EE87875	0.003165	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	83	F	II	T3N0M0	Transverse Colon	Adenocarcinoma	Moderate	None	8.6	9.1	9.1	Y	Y	Y	HISEQ_172_3	II
+CGCRC306	EE87876	0.1437	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	80	F	II	T4N0M0	Ascending Colon	Adenocarcinoma	Moderate	None	4.5	24.31	24.31	Y	Y	Y	HISEQ_172_1	II
+CGCRC307	EE87877	0.004363	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	78	F	II	T3N0M0	Ascending Colon	Adenocarcinoma	Moderate	None	8.5	14.26	14.26	Y	Y	Y	HISEQ_172_1	II
+CGCRC308	EE87878	0.01066	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	72	F	III	T4N2M0	Ascending Colon	Adenocarcinoma	Moderate	None	4.3	46.87	46.87	Y	Y	Y	HISEQ_172_1	III
+CGCRC311	EE87879	0.005298	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	59	M	I	T2N0M0	Sigmoid Colon	Adenocarcinoma	Moderate	None	8.5	3.91	3.91	Y	Y	Y	HISEQ_172_3	I
+CGCRC315	EE87880	0.009825	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	74	M	III	T3N1M0	Sigmoid Colon	Adenocarcinoma	Moderate	None	8.6	9.67	9.67	Y	Y	Y	HWI-D00419_864_1	III
+CGCRC316	EE87881	0.1409	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	80	M	III	T3N2M0	Transverse Colon	Adenocarcinoma	Moderate	None	4.9	52.16	52.16	Y	Y	Y	HWI-D00419_864_2	III
+CGCRC317	EE87882	0.0691	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	74	M	III	T3N2M0	Descending Colon	Adenocarcinoma	Moderate	None	8.8	16.08	16.08	Y	Y	Y	HWI-D00419_864_1	III
+CGCRC318	EE87883	0.01606	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	81	M	I	T2N0M0	Coecum	Adenocarcinoma	Moderate	None	9.8	18.24	18.24	Y	Y	Y	HWI-D00419_918_2	I
+CGCRC319	EE87884	0.01021	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	80	F	III	T2N1M0	Descending Colon	Adenocarcinoma	Moderate	None	4.2	53.54	53.54	Y	N	Y	HWI-D00792_378_1	III
+CGCRC320	EE87885	0.008227	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	73	F	I	T2N0M0	Ascending Colon	Adenocarcinoma	Moderate	None	4.5	30.37	30.37	Y	Y	Y	HWI-D00419_863_1	I
+CGCRC321	EE87886	0.006548	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	68	M	I	T2N0M0	Rectum	Adenocarcinoma	Moderate	None	9.3	4.25	4.25	Y	Y	Y	HISEQ_172_1	I
+CGCRC333	EE87887	0.6006	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	NA	F	IV	NA	Colon/Rectum	Adenocarcinoma	NA	Liver	4	113.88	113.88	Y	Y	Y	HWI-D00837_112_1	IV
+CGCRC336	EE87888	0.5119	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	NA	M	IV	NA	Colon/Rectum	Adenocarcinoma	NA	Liver	4.4	211.74	211.74	Y	Y	Y	HWI-D00792_378_4	IV
+CGCRC338	EE87889	0.3057	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	NA	F	IV	NA	Colon/Rectum	Adenocarcinoma	NA	Liver	2.3	109.76	109.76	Y	Y	Y	HWI-D00837_112_1	IV
+CGCRC341	EE87890	0.01008	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	NA	F	IV	NA	Colon/Rectum	Adenocarcinoma	NA	Liver	4.6	156.62	156.62	Y	N	Y	HWI-D00792_379_1	IV
+CGCRC342	EE87891	0.507	Colorectal Cancer	cfDNA	Preoperative treatment naive	0	NA	M	IV	NA	Colon/Rectum	Adenocarcinoma	NA	Liver	3.9	56.09	56.09	Y	N	Y	HWI-D00837_112_1	IV
+CGH14	EE87920	0.09292	Healthy	Human adult elutriated lymphocytes	NA	NA	NA	M	NA	NA	NA	NA	NA	NA	NA	NA	NA	Y	N	N	HWI-D00837_14	NA
+CGH15	EE87921	0.06555	Healthy	Human adult elutriated lymphocytes	NA	NA	NA	F	NA	NA	NA	NA	NA	NA	NA	NA	NA	Y	N	N	HWI-D00837_14	NA
+CGPLBR100	EE87811	0.00705	Breast Cancer	cfDNA	Preoperative treatment naive	0	44	F	III	T2N2M0	Left Breast	Infiltrating Ductal Carcinoma	NA	None	4	4.25	4.25	Y	N	Y	HISEQ_172_7	III
+CGPLBR101	EE87812	0.007848	Breast Cancer	cfDNA	Preoperative treatment naive	0	46	F	II	T2N1M0	Left Breast	Infiltrating Lobular Carcinoma	Moderate	None	4	37.88	37.88	Y	N	Y	HWI-D00792_379_1	II
+CGPLBR102	EE87813	0.008638	Breast Cancer	cfDNA	Preoperative treatment naive	0	47	F	II	T2N1M0	Right Breast	Infiltrating Ductal Carcinoma	Moderate	None	3.6	13.67	13.67	Y	N	Y	HISEQ_172_7	II
+CGPLBR103	EE87814	0	Breast Cancer	cfDNA	Preoperative treatment naïve	0	48	F	II	T2N1M0	Left Breast	Infiltrating Ductal Carcinoma	Moderate	None	3.6	7.11	7.11	Y	N	Y	HISEQ_172_7	II
+CGPLBR104	EE87815	0.01258	Breast Cancer	cfDNA	Preoperative treatment naive	0	68	F	II	T2N0M0	Right Breast	Infiltrating Lobular Carcinoma	Moderate	None	4.7	19.89	19.89	Y	N	Y	HWI-D00792_378_1	II
+CGPLBR12	EE87816	0.03155	Breast Cancer	cfDNA	Preoperative treatment naive	0	NA	F	III	NA	Breast	Ductal Carcinoma insitu with Microinvasion	NA	NA	4.3	4.21	4.21	Y	N	N	HWI-D00792_441_5	III
+CGPLBR18	EE87817	0.005341	Breast Cancer	cfDNA	Preoperative treatment naive	0	NA	F	III	NA	Breast	Infiltrating Lobular Carcinoma	NA	NA	4.1	40.39	30.49	Y	N	N	HWI-D00792_441_5	III
+CGPLBR23	EE87818	0.008664	Breast Cancer	cfDNA	Preoperative treatment naive	0	53	F	II	NA	Breast	Infiltrating Ductal Carcinoma	NA	None	4.7	20.09	20.09	Y	N	N	HWI-D00792_441_5	II
+CGPLBR24	EE87819	0.007954	Breast Cancer	cfDNA	Preoperative treatment naive	0	53	F	II	NA	Breast	Infiltrating Ductal Carcinoma	NA	None	3.6	58.33	34.72	Y	N	N	HWI-D00792_441_5	II
+CGPLBR28	EE87820	0.008536	Breast Cancer	cfDNA	Preoperative treatment naive	0	59	F	III	NA	Breast	Infiltrating Ductal Carcinoma	NA	None	4.2	12.86	12.86	Y	N	N	HWI-D00792_441_5	III
+CGPLBR30	EE87821	0.3369	Breast Cancer	cfDNA	Preoperative treatment naive	0	61	F	II	NA	Breast	Infiltrating Ductal Carcinoma	NA	None	4.1	59.73	30.49	Y	N	N	HWI-D00792_441_5	II
+CGPLBR31	EE87822	0.004467	Breast Cancer	cfDNA	Preoperative treatment naive	0	54	F	II	NA	Breast	Infiltrating Ductal Carcinoma	NA	None	3.4	23.94	23.94	Y	N	N	HWI-D00792_441_8	II
+CGPLBR32	EE87823	0.007509	Breast Cancer	cfDNA	Preoperative treatment naive	0	NA	F	II	NA	Breast	Infiltrating Ductal Carcinoma	NA	None	4.4	71.23	28.41	Y	N	N	HWI-D00792_441_6	II
+CGPLBR33	EE87824	0.004685	Breast Cancer	cfDNA	Preoperative treatment naive	0	47	F	II	NA	Breast	Infiltrating Lobular Carcinoma	NA	None	4.4	11	11	Y	N	N	HWI-D00792_441_6	II
+CGPLBR34	EE87825	0.00314	Breast Cancer	cfDNA	Preoperative treatment naive	0	60	F	II	NA	Breast	Infiltrating Lobular Carcinoma	NA	None	4.4	23.61	23.61	Y	N	N	HWI-D00792_441_6	II
+CGPLBR35	EE87826	0.002356	Breast Cancer	cfDNA	Preoperative treatment naive	0	43	F	II	NA	Breast	Ductal Carcinoma insitu with Microinvasion	NA	None	4.5	22.58	22.58	Y	N	N	HWI-D00792_441_6	II
+CGPLBR36	EE87827	0.01415	Breast Cancer	cfDNA	Preoperative treatment naive	0	36	F	II	NA	Breast	Infiltrating Ductal Carcinoma	NA	None	4.4	17.73	17.73	Y	N	N	HWI-D00792_441_6	II
+CGPLBR37	EE87828	0.00697	Breast Cancer	cfDNA	Preoperative treatment naive	0	58	F	II	NA	Breast	Infiltrating Ductal Carcinoma	NA	None	4.4	9.39	9.39	Y	N	N	HWI-D00792_441_4	II
+CGPLBR38	EE87829	0.004599	Breast Cancer	cfDNA	Preoperative treatment naive	0	54	F	I	T1N0M0	Left Breast	Infiltrating Ductal Carcinoma	Moderate	None	4	5.77	5.77	Y	Y	Y	HWI-D00792_378_3	I
+CGPLBR40	EE87830	0.009503	Breast Cancer	cfDNA	Preoperative treatment naive	0	66	F	III	T2N2M0	Left Breast	Infiltrating Ductal Carcinoma	Poor	None	4.6	15.69	15.69	Y	Y	Y	HWI-D00792_378_3	III
+CGPLBR41	EE87831	0.007892	Breast Cancer	cfDNA	Preoperative treatment naive	0	51	F	III	T3N1M0	Left Breast	Infiltrating Ductal Carcinoma	Moderate	None	4.5	11.56	11.56	Y	N	Y	HWI-D00792_378_6	III
+CGPLBR45	EE87832	0.008873	Breast Cancer	cfDNA	Preoperative treatment naive	0	57	F	II	NA	Breast	Infiltrating Ductal Carcinoma	NA	None	4.5	20.36	20.36	Y	N	N	HWI-D00792_441_3	II
+CGPLBR46	EE87833	0.007292	Breast Cancer	cfDNA	Preoperative treatment naive	0	54	F	III	NA	Breast	Infiltrating Ductal Carcinoma	NA	None	3.5	20.17	20.17	Y	N	N	HWI-D00792_441_3	III
+CGPLBR47	EE87834	0.00556	Breast Cancer	cfDNA	Preoperative treatment naive	0	54	F	I	NA	Breast	Infiltrating Ductal Carcinoma	NA	None	4.5	13.89	13.89	Y	N	N	HWI-D00792_441_3	I
+CGPLBR48	EE87835	0.03433	Breast Cancer	cfDNA	Preoperative treatment naive	0	47	F	II	T2N1M0	Left Breast	Infiltrating Ductal Carcinoma	Poor	None	3.9	7.07	7.07	Y	Y	Y	HWI-D00792_378_8	II
+CGPLBR49	EE87836	0.02909	Breast Cancer	cfDNA	Preoperative treatment naive	0	37	F	II	T2N1M0	Left Breast	Infiltrating Ductal Carcinoma	Poor	None	4	5.74	5.74	Y	N	Y	HWI-D00792_378_6	II
+CGPLBR50	EE87837	0.01222	Breast Cancer	cfDNA	Preoperative treatment naive	0	51	F	I	NA	Breast	Infiltrating Ductal Carcinoma	NA	None	4.5	45.58	27.78	Y	N	N	HWI-D00792_441_3	I
+CGPLBR51	EE87838	0.006204	Breast Cancer	cfDNA	Preoperative treatment naive	0	53	F	II	NA	Breast	Infiltrating Ductal Carcinoma	NA	None	4	8.83	8.83	Y	N	N	HWI-D00792_441_3	II
+CGPLBR52	EE87839	0.0148	Breast Cancer	cfDNA	Preoperative treatment naive	0	68	F	III	NA	Breast	Infiltrating Ductal Carcinoma	NA	None	4.5	80.71	27.78	Y	N	N	HWI-D00792_441_3	III
+CGPLBR55	EE87840	0.008946	Breast Cancer	cfDNA	Preoperative treatment naive	0	53	F	III	T3N1M0	Right Breast	Infiltrating Ductal Carcinoma	Poor	None	4.3	4.57	4.57	Y	Y	Y	HWI-D00792_378_2	III
+CGPLBR56	EE87841	0.003818	Breast Cancer	cfDNA	Preoperative treatment naive	0	56	F	II	NA	Breast	Infiltrating Ductal Carcinoma	NA	None	4.5	22.16	22.16	Y	N	N	HWI-D00792_441_4	II
+CGPLBR57	EE87842	0.005813	Breast Cancer	cfDNA	Preoperative treatment naive	0	54	F	III	T2N2M0	Left Breast	Infiltrating Ductal Carcinoma	NA	None	4.3	4.02	4.02	Y	N	Y	HWI-D00792_378_7	III
+CGPLBR59	EE87843	0.006043	Breast Cancer	cfDNA	Preoperative treatment naive	0	42	F	I	T1N0M0	Left Breast	Infiltrating Ductal Carcinoma	Moderate	None	4.1	8.24	8.24	Y	N	Y	HISEQ_172_4	I
+CGPLBR60	EE87844	0.007542	Breast Cancer	cfDNA	Preoperative treatment naive	0	61	F	II	NA	Left Breast	Infiltrating Ductal Carcinoma	NA	None	4.5	11.09	11.09	Y	N	N	HWI-D00133R_160_1	II
+CGPLBR61	EE87845	0.004216	Breast Cancer	cfDNA	Preoperative treatment naive	0	67	F	II	T2N1M0	Left Breast	Infiltrating Ductal Carcinoma	Moderate	None	4.1	13.25	13.25	Y	N	Y	HISEQ_172_4	II
+CGPLBR63	EE87846	0.006352	Breast Cancer	cfDNA	Preoperative treatment naive	0	48	F	II	T2N1M0	Left Breast	Infiltrating Ductal Carcinoma	Moderate	None	4	6.19	6.19	Y	Y	Y	HISEQ_172_4	II
+CGPLBR65	EE87847	0.004784	Breast Cancer	cfDNA	Preoperative treatment naive	0	50	F	II	NA	Left Breast	Infiltrating Ductal Carcinoma	NA	None	3.5	41.75	35.71	Y	N	N	HWI-D00133R_160_1	II
+CGPLBR68	EE87848	0.01374	Breast Cancer	cfDNA	Preoperative treatment naive	0	64	F	III	T4N1M0	Breast	Infiltrating Ductal Carcinoma	Poor	None	3.4	10.41	10.41	Y	N	Y	HWI-D00792_378_4	III
+CGPLBR69	EE87849	0.003412	Breast Cancer	cfDNA	Preoperative treatment naive	0	43	F	II	T2N0M0	Breast	Infiltrating Ductal Carcinoma	Moderate	None	4.4	4.07	4.07	Y	Y	Y	HISEQ_172_8	II
+CGPLBR70	EE87850	0.006283	Breast Cancer	cfDNA	Preoperative treatment naive	0	60	F	II	T2N1M0	Breast	Infiltrating Ductal Carcinoma	Moderate	None	3.4	11.94	11.94	Y	Y	Y	HISEQ_172_4	II
+CGPLBR71	EE87851	0.003963	Breast Cancer	cfDNA	Preoperative treatment naive	0	65	F	II	T2N0M0	Breast	Infiltrating Ductal Carcinoma	Poor	None	3.1	7.64	7.64	Y	Y	Y	HISEQ_172_8	II
+CGPLBR72	EE87852	0.006535	Breast Cancer	cfDNA	Preoperative treatment naive	0	67	F	II	T2N0M0	Breast	Infiltrating Ductal Carcinoma	Well	None	3.9	4.43	4.43	Y	Y	Y	HWI-D00419_1525_2	II
+CGPLBR73	EE87853	0.005769	Breast Cancer	cfDNA	Preoperative treatment naive	0	60	F	II	T2N1M0	Breast	Infiltrating Ductal Carcinoma	Moderate	None	3.3	14.69	14.69	Y	Y	Y	HISEQ_172_8	II
+CGPLBR76	EE87854	0.008469	Breast Cancer	cfDNA	Preoperative treatment naive	0	53	F	II	T2N0M0	Right Breast	Infiltrating Ductal Carcinoma	Well	None	4.9	8.71	8.71	Y	Y	Y	HWI-D00792_378_4	II
+CGPLBR81	EE87855	0.02179	Breast Cancer	cfDNA	Preoperative treatment naive	0	54	F	II	NA	Breast	Infiltrating Ductal Carcinoma	NA	None	2.5	83.14	50	Y	N	N	HWI-D00133R_160_4	II
+CGPLBR82	EE87856	0.007674	Breast Cancer	cfDNA	Preoperative treatment naive	0	70	F	I	T1N0M0	Right Breast	Infiltrating Lobular Carcinoma	Moderate	None	4.8	23.39	23.39	Y	N	Y	HWI-D00792_378_6	I
+CGPLBR83	EE87857	0.002815	Breast Cancer	cfDNA	Preoperative treatment naive	0	53	F	II	T2N1M0	Right Breast	Infiltrating Ductal Carcinoma	Moderate	None	3.7	100.17	100.17	Y	Y	Y	HWI-D00792_378_1	II
+CGPLBR84	EE87858	0.01694	Breast Cancer	cfDNA	Preoperative treatment naive	0	NA	F	III	NA	Breast	Infiltrating Ductal Carcinoma	NA	NA	3.6	16.95	16.95	Y	N	N	HWI-D00133R_160_4	III
+CGPLBR87	EE87859	0.01931	Breast Cancer	cfDNA	Preoperative treatment naive	0	80	F	II	T2N1M0	Right Breast	Papillary Carcinoma	Well	None	3.6	277.39	69.44	Y	Y	Y	HWI-D00792_378_6	II
+CGPLBR88	EE87860	0.01674	Breast Cancer	cfDNA	Preoperative treatment naive	0	48	F	II	T1N1M0	Left Breast	Infiltrating Ductal Carcinoma	Poor	None	3.6	49.75	49.75	Y	Y	Y	HWI-D00792_378_6	II
+CGPLBR90	EE87861	0.02024	Breast Cancer	cfDNA	Preoperative treatment naive	0	51	F	II	NA	Right Breast	Infiltrating Ductal Carcinoma	NA	None	3	14.24	14.24	Y	N	N	HWI-D00133R_160_4	II
+CGPLBR91	EE87862	0.003424	Breast Cancer	cfDNA	Preoperative treatment naive	0	62	F	III	T2N2M0	Breast	Infiltrating Lobular Carcinoma	Poor	None	3.2	22.41	22.41	Y	N	Y	HWI-D00792_378_7	III
+CGPLBR92	EE87863	0.01204	Breast Cancer	cfDNA	Preoperative treatment naive	0	58	F	II	T2N1M0	Breast	Infiltrating Medullary Carcinoma	Poor	None	3.1	81	81	Y	Y	Y	HWI-D00792_378_4	II
+CGPLBR93	EE87864	0	Breast Cancer	cfDNA	Preoperative treatment naive	0	59	F	II	T1N0M0	Breast	Infiltrating Ductal Carcinoma	Moderate	None	3.3	27.94	27.94	Y	N	Y	HISEQ_172_7	II
+CGPLH189	EE87922	0.006109	Healthy	cfDNA	Preoperative treatment naive	0	74	M	NA	NA	NA	NA	NA	NA	5	5.84	5.84	Y	N	N	HWI-D00792_444_1	NA
+CGPLH190	EE87923	0.005999	Healthy	cfDNA	Preoperative treatment naive	0	67	M	NA	NA	NA	NA	NA	NA	4.7	18.07	18.07	Y	N	N	HWI-D00792_444_3	NA
+CGPLH192	EE87924	0.00399	Healthy	cfDNA	Preoperative treatment naive	0	74	M	NA	NA	NA	NA	NA	NA	4.7	12.19	12.19	Y	N	N	HWI-D00792_444_4	NA
+CGPLH193	EE87925	0.00766	Healthy	cfDNA	Preoperative treatment naive	0	72	F	NA	NA	NA	NA	NA	NA	5	5.47	5.47	Y	N	N	HWI-D00792_444_5	NA
+CGPLH194	EE87926	0.00811	Healthy	cfDNA	Preoperative treatment naive	0	75	F	NA	NA	NA	NA	NA	NA	5	9.98	9.98	Y	N	N	HWI-D00792_441_2	NA
+CGPLH196	EE87927	0.002187	Healthy	cfDNA	Preoperative treatment naive	0	64	M	NA	NA	NA	NA	NA	NA	5	11.69	11.69	Y	N	N	HWI-D00792_441_1	NA
+CGPLH197	EE87928	0.004994	Healthy	cfDNA	Preoperative treatment naive	0	74	M	NA	NA	NA	NA	NA	NA	5	5.69	5.69	Y	N	N	HWI-D00792_441_8	NA
+CGPLH198	EE87929	0.009404	Healthy	cfDNA	Preoperative treatment naive	0	66	M	NA	NA	NA	NA	NA	NA	5	4.36	4.36	Y	N	N	HWI-D00792_441_7	NA
+CGPLH200	EE87931	0.01065	Healthy	cfDNA	Preoperative treatment naive	0	51	M	NA	NA	NA	NA	NA	NA	5	5.6	5.6	Y	N	N	HISEQ_173_2	NA
+CGPLH201	EE87932	0.008184	Healthy	cfDNA	Preoperative treatment naive	0	68	F	NA	NA	NA	NA	NA	NA	5	8.82	8.82	Y	N	N	HISEQ_173_7	NA
+CGPLH202	EE87933	0.002683	Healthy	cfDNA	Preoperative treatment naive	0	73	M	NA	NA	NA	NA	NA	NA	5	5.54	5.54	Y	N	N	HISEQ_173_3	NA
+CGPLH203	EE87934	0.008075	Healthy	cfDNA	Preoperative treatment naive	0	59	M	NA	NA	NA	NA	NA	NA	5	9.03	9.03	Y	N	N	HISEQ_173_6	NA
+CGPLH205	EE87935	0.008915	Healthy	cfDNA	Preoperative treatment naive	0	68	F	NA	NA	NA	NA	NA	NA	5	4.74	4.74	Y	N	N	HISEQ_173_4	NA
+CGPLH208	EE87936	0.009617	Healthy	cfDNA	Preoperative treatment naive	0	75	F	NA	NA	NA	NA	NA	NA	5	4.67	4.67	Y	N	N	HWI-D00792_448_2	NA
+CGPLH209	EE87937	0.009477	Healthy	cfDNA	Preoperative treatment naive	0	74	M	NA	NA	NA	NA	NA	NA	5	5.15	5.15	Y	N	N	HISEQ_180_5	NA
+CGPLH210	EE87938	0.007419	Healthy	cfDNA	Preoperative treatment naive	0	75	M	NA	NA	NA	NA	NA	NA	5	5.41	5.41	Y	N	N	HWI-D00792_450_3	NA
+CGPLH211	EE87939	0.003285	Healthy	cfDNA	Preoperative treatment naive	0	75	F	NA	NA	NA	NA	NA	NA	5	6.24	6.24	Y	N	N	HISEQ_181_1	NA
+CGPLH300	EE87940	0.003704	Healthy	cfDNA	Preoperative treatment naive	0	72	F	NA	NA	NA	NA	NA	NA	4.4	6.75	6.75	Y	N	N	HISEQ_205_2	NA
+CGPLH307	EE87941	0.00223	Healthy	cfDNA	Preoperative treatment naive	0	53	M	NA	NA	NA	NA	NA	NA	4.5	3.5	3.5	Y	N	N	HISEQ_203_4	NA
+CGPLH308	EE87942	0.003202	Healthy	cfDNA	Preoperative treatment naive	0	60	M	NA	NA	NA	NA	NA	NA	4.5	6.01	6.01	Y	N	N	HISEQ_203_3	NA
+CGPLH309	EE87943	0.002317	Healthy	cfDNA	Preoperative treatment naive	0	61	F	NA	NA	NA	NA	NA	NA	4.5	5.21	5.21	Y	N	N	HISEQ_203_1	NA
+CGPLH310	EE87944	0.006743	Healthy	cfDNA	Preoperative treatment naive	0	55	F	NA	NA	NA	NA	NA	NA	4.5	15.25	15.25	Y	N	N	HISEQ_203_5	NA
+CGPLH311	EE87945	0.002694	Healthy	cfDNA	Preoperative treatment naive	0	50	M	NA	NA	NA	NA	NA	NA	4.5	4.47	4.47	Y	N	N	HISEQ_203_1	NA
+CGPLH314	EE87946	0.007281	Healthy	cfDNA	Preoperative treatment naive	0	59	M	NA	NA	NA	NA	NA	NA	4.5	9.62	9.62	Y	N	N	HISEQ_203_4	NA
+CGPLH314_Rep	EE87947	0.008576	Healthy	cfDNA, technical replicate	Preoperative treatment naive	0	59	M	NA	NA	NA	NA	NA	NA	4.4	16.24	16.24	Y	N	N	HWI-D00837_138_5	NA
+CGPLH315	EE87948	0.004335	Healthy	cfDNA	Preoperative treatment naive	0	59	F	NA	NA	NA	NA	NA	NA	4.2	11.55	11.55	Y	N	N	HISEQ_205_6	NA
+CGPLH316	EE87949	0.00554	Healthy	cfDNA	Preoperative treatment naive	0	64	M	NA	NA	NA	NA	NA	NA	4.5	28.92	27.78	Y	N	N	HISEQ_203_4	NA
+CGPLH317	EE87950	0.006103	Healthy	cfDNA	Preoperative treatment naive	0	53	F	NA	NA	NA	NA	NA	NA	4.5	7.62	7.62	Y	N	N	HISEQ_203_2	NA
+CGPLH319	EE87951	0.004487	Healthy	cfDNA	Preoperative treatment naive	0	60	F	NA	NA	NA	NA	NA	NA	4.2	4.41	4.41	Y	N	N	HISEQ_203_1	NA
+CGPLH320	EE87952	0.002385	Healthy	cfDNA	Preoperative treatment naive	0	75	F	NA	NA	NA	NA	NA	NA	4.5	6.93	6.93	Y	N	N	HISEQ_203_2	NA
+CGPLH322	EE87953	0.003291	Healthy	cfDNA	Preoperative treatment naive	0	53	F	NA	NA	NA	NA	NA	NA	4.2	8.17	8.17	Y	N	N	HISEQ_203_4	NA
+CGPLH324	EE87954	0.002146	Healthy	cfDNA	Preoperative treatment naive	0	59	F	NA	NA	NA	NA	NA	NA	5	6.63	6.63	Y	N	N	HISEQ_205_2	NA
+CGPLH325	EE87955	0.002117	Healthy	cfDNA	Preoperative treatment naive	0	54	M	NA	NA	NA	NA	NA	NA	4.6	4.15	4.15	Y	N	N	HISEQ_203_3	NA
+CGPLH326	EE87956	0.003625	Healthy	cfDNA	Preoperative treatment naive	0	67	F	NA	NA	NA	NA	NA	NA	4.5	6.06	6.06	Y	N	N	HISEQ_203_6	NA
+CGPLH327	EE87957	0.005422	Healthy	cfDNA	Preoperative treatment naive	0	50	M	NA	NA	NA	NA	NA	NA	4.8	1.24	1.24	Y	N	N	HISEQ_203_5	NA
+CGPLH328	EE87958	0.007808	Healthy	cfDNA	Preoperative treatment naive	0	68	F	NA	NA	NA	NA	NA	NA	4.4	3.42	3.42	Y	N	N	HISEQ_203_4	NA
+CGPLH328_Rep	EE87959	0.004524	Healthy	cfDNA, technical replicate	Preoperative treatment naive	0	68	F	NA	NA	NA	NA	NA	NA	4.9	5.47	5.47	Y	N	N	HWI-D00837_138_8	NA
+CGPLH329	EE87960	0.00371	Healthy	cfDNA	Preoperative treatment naive	0	59	M	NA	NA	NA	NA	NA	NA	4.5	5.27	5.27	Y	N	N	HISEQ_203_2	NA
+CGPLH330	EE87961	0.006417	Healthy	cfDNA	Preoperative treatment naive	0	75	M	NA	NA	NA	NA	NA	NA	4.3	10.21	10.21	Y	N	N	HISEQ_203_8	NA
+CGPLH331	EE87962	0.006279	Healthy	cfDNA	Preoperative treatment naive	0	55	M	NA	NA	NA	NA	NA	NA	4.6	2.63	2.63	Y	N	N	HISEQ_203_3	NA
+CGPLH331_Rep	EE87963	0.002671	Healthy	cfDNA, technical replicate	Preoperative treatment naive	0	55	M	NA	NA	NA	NA	NA	NA	4.3	4.15	4.15	Y	N	N	HWI-D00837_138_6	NA
+CGPLH333	EE87964	0.005615	Healthy	cfDNA	Preoperative treatment naive	0	60	M	NA	NA	NA	NA	NA	NA	4.7	4.06	4.06	Y	N	N	HISEQ_203_6	NA
+CGPLH335	EE87965	0.002416	Healthy	cfDNA	Preoperative treatment naive	0	74	M	NA	NA	NA	NA	NA	NA	4.4	9.39	9.39	Y	N	N	HISEQ_203_3	NA
+CGPLH336	EE87966	0.003289	Healthy	cfDNA	Preoperative treatment naive	0	53	F	NA	NA	NA	NA	NA	NA	4.6	6.64	6.64	Y	N	N	HISEQ_205_2	NA
+CGPLH337	EE87967	0.003053	Healthy	cfDNA	Preoperative treatment naive	0	53	F	NA	NA	NA	NA	NA	NA	4.2	4.48	4.48	Y	N	N	HISEQ_205_5	NA
+CGPLH338	EE87968	0.002749	Healthy	cfDNA	Preoperative treatment naive	0	75	M	NA	NA	NA	NA	NA	NA	4.5	59.44	27.78	Y	N	N	HISEQ_205_5	NA
+CGPLH339	EE87969	0.006295	Healthy	cfDNA	Preoperative treatment naive	0	70	M	NA	NA	NA	NA	NA	NA	4.5	12.27	12.27	Y	N	N	HISEQ_205_5	NA
+CGPLH340	EE87970	0.005031	Healthy	cfDNA	Preoperative treatment naive	0	62	M	NA	NA	NA	NA	NA	NA	4.5	4.86	4.86	Y	N	N	HISEQ_205_5	NA
+CGPLH341	EE87971	0.0106	Healthy	cfDNA	Preoperative treatment naive	0	61	F	NA	NA	NA	NA	NA	NA	4.1	7.62	7.62	Y	N	N	HISEQ_205_4	NA
+CGPLH342	EE87972	0.005436	Healthy	cfDNA	Preoperative treatment naive	0	49	F	NA	NA	NA	NA	NA	NA	4.2	18.29	18.29	Y	N	N	HISEQ_205_4	NA
+CGPLH343	EE87973	0.005448	Healthy	cfDNA	Preoperative treatment naive	0	58	M	NA	NA	NA	NA	NA	NA	4.5	3.49	3.49	Y	N	N	HISEQ_205_4	NA
+CGPLH344	EE87974	0.006694	Healthy	cfDNA	Preoperative treatment naive	0	50	M	NA	NA	NA	NA	NA	NA	4.2	8.41	8.41	Y	N	N	HISEQ_205_4	NA
+CGPLH345	EE87975	0.005068	Healthy	cfDNA	Preoperative treatment naive	0	55	F	NA	NA	NA	NA	NA	NA	4.5	9.73	9.73	Y	N	N	HISEQ_205_4	NA
+CGPLH346	EE87976	0.001988	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.5	7.86	7.86	Y	N	N	HISEQ_205_4	NA
+CGPLH35	EE87977	0.007794	Healthy	cfDNA	Preoperative treatment naive	0	48	F	NA	NA	NA	NA	NA	NA	4	13.15	13.15	Y	N	Y	HWI-D00419_774_1	NA
+CGPLH350	EE87978	0.01111	Healthy	cfDNA	Preoperative treatment naive	0	65	M	NA	NA	NA	NA	NA	NA	3.5	6.09	6.09	Y	N	N	HWI-D00792_486_1	NA
+CGPLH351	EE87979	0.008481	Healthy	cfDNA	Preoperative treatment naive	0	71	M	NA	NA	NA	NA	NA	NA	4	15.91	15.91	Y	N	N	HWI-D00792_486_2	NA
+CGPLH352	EE87980	0.008901	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.2	6.47	6.47	Y	N	N	HISEQ_205_6	NA
+CGPLH353	EE87981	0.006603	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.2	4.47	4.47	Y	N	N	HISEQ_205_6	NA
+CGPLH354	EE87982	0.004592	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.2	17.49	17.49	Y	N	N	HISEQ_205_6	NA
+CGPLH355	EE87983	0.009156	Healthy	cfDNA	Preoperative treatment naive	0	70	M	NA	NA	NA	NA	NA	NA	4.2	11.58	11.58	Y	N	N	HISEQ_205_4	NA
+CGPLH356	EE87984	0.01662	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.5	3.94	3.94	Y	N	N	HISEQ_205_6	NA
+CGPLH357	EE87985	0.009129	Healthy	cfDNA	Preoperative treatment naive	0	52	F	NA	NA	NA	NA	NA	NA	4.2	11.79	11.79	Y	N	N	HWI-D00792_484_2	NA
+CGPLH358	EE87986	0.002943	Healthy	cfDNA	Preoperative treatment naive	0	55	M	NA	NA	NA	NA	NA	NA	4.2	21.06	21.06	Y	N	N	HWI-D00792_484_1	NA
+CGPLH36	EE87987	0.007191	Healthy	cfDNA	Preoperative treatment naive	0	36	F	NA	NA	NA	NA	NA	NA	4	13	13	Y	N	Y	HWI-D00419_774_1	NA
+CGPLH360	EE87988	0	Healthy	cfDNA	Preoperative treatment naive	0	60	M	NA	NA	NA	NA	NA	NA	4.2	3.48	3.48	Y	N	N	HISEQ_205_2	NA
+CGPLH361	EE87989	0.003525	Healthy	cfDNA	Preoperative treatment naive	0	50	M	NA	NA	NA	NA	NA	NA	4.3	6.98	6.98	Y	N	N	HISEQ_203_3	NA
+CGPLH362	EE87990	0.005685	Healthy	cfDNA	Preoperative treatment naive	0	72	F	NA	NA	NA	NA	NA	NA	4.4	8.49	8.49	Y	N	N	HISEQ_203_8	NA
+CGPLH363	EE87991	0.006526	Healthy	cfDNA	Preoperative treatment naive	0	68	F	NA	NA	NA	NA	NA	NA	4.5	4.44	4.44	Y	N	N	HISEQ_203_7	NA
+CGPLH364	EE87992	0.009634	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.5	17.31	17.31	Y	N	N	HISEQ_203_8	NA
+CGPLH365	EE87993	0.006868	Healthy	cfDNA	Preoperative treatment naive	0	68	F	NA	NA	NA	NA	NA	NA	4.5	0.55	0.55	Y	N	N	HISEQ_203_2	NA
+CGPLH366	EE87994	0.005154	Healthy	cfDNA	Preoperative treatment naive	0	61	M	NA	NA	NA	NA	NA	NA	4.5	4.88	4.88	Y	N	N	HISEQ_203_5	NA
+CGPLH367	EE87995	0.002591	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.4	6.48	6.48	Y	N	N	HISEQ_203_4	NA
+CGPLH368	EE87996	0.005401	Healthy	cfDNA	Preoperative treatment naive	0	50	M	NA	NA	NA	NA	NA	NA	4.3	2.63	2.63	Y	N	N	HISEQ_203_5	NA
+CGPLH369	EE87997	0.004989	Healthy	cfDNA	Preoperative treatment naive	0	55	F	NA	NA	NA	NA	NA	NA	4.3	10.18	10.18	Y	N	N	HISEQ_203_7	NA
+CGPLH369_Rep	EE87998	0.004884	Healthy	cfDNA, technical replicate	Preoperative treatment naive	0	55	F	NA	NA	NA	NA	NA	NA	4.4	10.71	10.71	Y	N	N	HWI-D00837_138_8	NA
+CGPLH37	EE87999	0.007523	Healthy	cfDNA	Preoperative treatment naive	0	39	F	NA	NA	NA	NA	NA	NA	4	9.73	9.73	Y	N	Y	HWI-D00419_777_1	NA
+CGPLH370	EE88000	0.006368	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.5	7.22	7.22	Y	N	N	HISEQ_203_7	NA
+CGPLH371	EE88001	0.006914	Healthy	cfDNA	Preoperative treatment naive	0	57	F	NA	NA	NA	NA	NA	NA	4.6	5.62	5.62	Y	N	N	HISEQ_203_6	NA
+CGPLH380	EE88002	0.006254	Healthy	cfDNA	Preoperative treatment naive	0	53	F	NA	NA	NA	NA	NA	NA	4.2	6.61	6.61	Y	N	N	HISEQ_1594_2	NA
+CGPLH381	EE88003	0.007615	Healthy	cfDNA	Preoperative treatment naive	0	56	F	NA	NA	NA	NA	NA	NA	4.2	27.38	27.38	Y	N	N	HISEQ_1596_2	NA
+CGPLH382	EE88004	0.00685	Healthy	cfDNA	Preoperative treatment naive	0	53	F	NA	NA	NA	NA	NA	NA	4.5	11.58	11.58	Y	N	N	HISEQ_1594_2	NA
+CGPLH383	EE88005	0.008921	Healthy	cfDNA	Preoperative treatment naive	0	62	F	NA	NA	NA	NA	NA	NA	4.5	25.5	25.5	Y	N	N	HISEQ_1594_1	NA
+CGPLH384	EE88006	0.004642	Healthy	cfDNA	Preoperative treatment naive	0	50	M	NA	NA	NA	NA	NA	NA	4.5	15.66	15.66	Y	N	N	HISEQ_205_7	NA
+CGPLH385	EE88007	0.00383	Healthy	cfDNA	Preoperative treatment naive	0	69	M	NA	NA	NA	NA	NA	NA	4.5	19.35	19.35	Y	N	N	HISEQ_203_6	NA
+CGPLH386	EE88008	0.003436	Healthy	cfDNA	Preoperative treatment naive	0	62	M	NA	NA	NA	NA	NA	NA	4.5	6.46	6.46	Y	N	N	HISEQ_203_6	NA
+CGPLH386_Rep	EE88009	0.001829	Healthy	cfDNA, technical replicate	Preoperative treatment naive	0	62	M	NA	NA	NA	NA	NA	NA	4.6	6.54	6.54	Y	N	N	HWI-D00837_138_8	NA
+CGPLH387	EE88010	0.008856	Healthy	cfDNA	Preoperative treatment naive	0	71	F	NA	NA	NA	NA	NA	NA	4.5	6.19	6.19	Y	N	N	HISEQ_203_4	NA
+CGPLH388	EE88011	0.006347	Healthy	cfDNA	Preoperative treatment naive	0	57	F	NA	NA	NA	NA	NA	NA	4.5	6.62	6.62	Y	N	N	HISEQ_203_3	NA
+CGPLH389	EE88012	0.008125	Healthy	cfDNA	Preoperative treatment naive	0	73	F	NA	NA	NA	NA	NA	NA	4.6	14.78	14.78	Y	N	N	HISEQ_203_7	NA
+CGPLH390	EE88013	0.01033	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.5	12.14	12.14	Y	N	N	HISEQ_203_7	NA
+CGPLH391	EE88014	0.00694	Healthy	cfDNA	Preoperative treatment naive	0	58	M	NA	NA	NA	NA	NA	NA	4.5	8.88	8.88	Y	N	N	HISEQ_203_5	NA
+CGPLH391_Rep	EE88015	0.01014	Healthy	cfDNA, technical replicate	Preoperative treatment naive	0	58	M	NA	NA	NA	NA	NA	NA	4.5	8.37	8.37	Y	N	N	HWI-D00837_138_7	NA
+CGPLH392	EE88016	0.003414	Healthy	cfDNA	Preoperative treatment naive	0	57	F	NA	NA	NA	NA	NA	NA	4.5	8.39	8.39	Y	N	N	HISEQ_203_7	NA
+CGPLH393	EE88017	0.00596	Healthy	cfDNA	Preoperative treatment naive	0	54	M	NA	NA	NA	NA	NA	NA	4.5	5.27	5.27	Y	N	N	HISEQ_203_8	NA
+CGPLH394	EE88018	0.003068	Healthy	cfDNA	Preoperative treatment naive	0	55	F	NA	NA	NA	NA	NA	NA	4.4	3.79	3.79	Y	N	N	HISEQ_203_6	NA
+CGPLH395	EE88019	0.003531	Healthy	cfDNA	Preoperative treatment naive	0	56	F	NA	NA	NA	NA	NA	NA	4.4	9.56	9.56	Y	N	N	HISEQ_203_6	NA
+CGPLH395_Rep	EE88020	0.006456	Healthy	cfDNA, technical replicate	Preoperative treatment naive	0	56	F	NA	NA	NA	NA	NA	NA	4.4	5.4	5.4	Y	N	N	HWI-D00837_138_7	NA
+CGPLH396	EE88021	0.003219	Healthy	cfDNA	Preoperative treatment naive	0	50	M	NA	NA	NA	NA	NA	NA	4.4	20.31	20.31	Y	N	N	HISEQ_205_7	NA
+CGPLH398	EE88022	0.004258	Healthy	cfDNA	Preoperative treatment naive	0	68	M	NA	NA	NA	NA	NA	NA	4.3	13.01	13.01	Y	N	N	HISEQ_203_8	NA
+CGPLH399	EE88023	0.002242	Healthy	cfDNA	Preoperative treatment naive	0	62	F	NA	NA	NA	NA	NA	NA	4.4	4.79	4.79	Y	N	N	HISEQ_203_1	NA
+CGPLH400	EE88024	0.01609	Healthy	cfDNA	Preoperative treatment naive	0	64	M	NA	NA	NA	NA	NA	NA	4.4	7.7	7.7	Y	N	N	HISEQ_203_1	NA
+CGPLH400_Rep	EE88025	0.00565	Healthy	cfDNA, technical replicate	Preoperative treatment naive	0	64	M	NA	NA	NA	NA	NA	NA	4.4	6.26	6.26	Y	N	N	HWI-D00837_138_7	NA
+CGPLH401	EE88026	0.006978	Healthy	cfDNA	Preoperative treatment naive	0	50	M	NA	NA	NA	NA	NA	NA	4.3	13.01	13.01	Y	N	N	HISEQ_203_7	NA
+CGPLH401_Rep	EE88027	0.007766	Healthy	cfDNA, technical replicate	Preoperative treatment naive	0	50	M	NA	NA	NA	NA	NA	NA	4.4	11.13	11.13	Y	N	N	HWI-D00837_138_8	NA
+CGPLH402	EE88028	0.003107	Healthy	cfDNA	Preoperative treatment naive	0	57	F	NA	NA	NA	NA	NA	NA	4.5	2.89	2.89	Y	N	N	HISEQ_205_8	NA
+CGPLH403	EE88029	0.01253	Healthy	cfDNA	Preoperative treatment naive	0	64	M	NA	NA	NA	NA	NA	NA	4.3	4.41	4.41	Y	N	N	HISEQ_205_8	NA
+CGPLH404	EE88030	0.01222	Healthy	cfDNA	Preoperative treatment naive	0	50	M	NA	NA	NA	NA	NA	NA	4.2	6.38	6.38	Y	N	N	HISEQ_205_8	NA
+CGPLH405	EE88031	0.005369	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.4	7.28	7.28	Y	N	N	HISEQ_205_8	NA
+CGPLH406	EE88032	0.01126	Healthy	cfDNA	Preoperative treatment naive	0	57	M	NA	NA	NA	NA	NA	NA	4.2	5.4	5.4	Y	N	N	HISEQ_205_8	NA
+CGPLH407	EE88033	0.003661	Healthy	cfDNA	Preoperative treatment naive	0	75	F	NA	NA	NA	NA	NA	NA	4	13.3	13.3	Y	N	N	HISEQ_205_8	NA
+CGPLH408	EE88034	0.008114	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.2	5.18	5.18	Y	N	N	HISEQ_205_7	NA
+CGPLH409	EE88035	0.006937	Healthy	cfDNA	Preoperative treatment naive	0	53	M	NA	NA	NA	NA	NA	NA	3.7	3.98	3.98	Y	N	N	HISEQ_205_8	NA
+CGPLH410	EE88036	0.007987	Healthy	cfDNA	Preoperative treatment naive	0	52	M	NA	NA	NA	NA	NA	NA	4.1	6.91	6.91	Y	N	N	HISEQ_205_3	NA
+CGPLH411	EE88037	0.004912	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.1	3.3	3.3	Y	N	N	HISEQ_205_3	NA
+CGPLH412	EE88038	0.003414	Healthy	cfDNA	Preoperative treatment naive	0	53	F	NA	NA	NA	NA	NA	NA	4.1	5.55	5.55	Y	N	N	HISEQ_205_3	NA
+CGPLH413	EE88039	0.004101	Healthy	cfDNA	Preoperative treatment naive	0	54	F	NA	NA	NA	NA	NA	NA	4.5	8.18	8.18	Y	N	N	HISEQ_205_3	NA
+CGPLH414	EE88040	0.00212	Healthy	cfDNA	Preoperative treatment naive	0	56	M	NA	NA	NA	NA	NA	NA	3.8	5.85	5.85	Y	N	N	HISEQ_205_3	NA
+CGPLH415	EE88041	0.002575	Healthy	cfDNA	Preoperative treatment naive	0	59	M	NA	NA	NA	NA	NA	NA	4.7	10.2	10.2	Y	N	N	HISEQ_205_3	NA
+CGPLH416	EE88042	0.00589	Healthy	cfDNA	Preoperative treatment naive	0	58	F	NA	NA	NA	NA	NA	NA	4.5	11.73	11.73	Y	N	N	HISEQ_205_2	NA
+CGPLH417	EE88043	0.009542	Healthy	cfDNA	Preoperative treatment naive	0	70	M	NA	NA	NA	NA	NA	NA	4.2	10.98	10.98	Y	N	N	HISEQ_205_3	NA
+CGPLH418	EE88044	0.00263	Healthy	cfDNA	Preoperative treatment naive	0	70	F	NA	NA	NA	NA	NA	NA	4.5	10.96	10.96	Y	N	N	HISEQ_205_2	NA
+CGPLH419	EE88045	0.004327	Healthy	cfDNA	Preoperative treatment naive	0	65	F	NA	NA	NA	NA	NA	NA	4.5	10.17	10.17	Y	N	N	HISEQ_205_7	NA
+CGPLH42	EE88046	0.004855	Healthy	cfDNA	Preoperative treatment naive	0	54	F	NA	NA	NA	NA	NA	NA	4	14.3	14.3	Y	N	Y	HWI-D00419_778_2	NA
+CGPLH420	EE88047	0.005292	Healthy	cfDNA	Preoperative treatment naive	0	51	M	NA	NA	NA	NA	NA	NA	4.2	12.32	12.32	Y	N	N	HISEQ_205_7	NA
+CGPLH422	EE88048	0.007724	Healthy	cfDNA	Preoperative treatment naive	0	68	F	NA	NA	NA	NA	NA	NA	4.6	5.42	5.42	Y	N	N	HISEQ_206_1	NA
+CGPLH423	EE88049	0.005046	Healthy	cfDNA	Preoperative treatment naive	0	54	M	NA	NA	NA	NA	NA	NA	4.2	2.85	2.85	Y	N	N	HISEQ_206_4	NA
+CGPLH424	EE88050	0.00305	Healthy	cfDNA	Preoperative treatment naive	0	53	F	NA	NA	NA	NA	NA	NA	4.7	1.66	1.66	Y	N	N	HISEQ_206_4	NA
+CGPLH425	EE88051	0.004362	Healthy	cfDNA	Preoperative treatment naive	0	53	F	NA	NA	NA	NA	NA	NA	4.4	5.98	5.98	Y	N	N	HISEQ_206_4	NA
+CGPLH426	EE88052	0.002184	Healthy	cfDNA	Preoperative treatment naive	0	68	M	NA	NA	NA	NA	NA	NA	4.4	2.84	2.84	Y	N	N	HISEQ_206_3	NA
+CGPLH427	EE88053	0.01087	Healthy	cfDNA	Preoperative treatment naive	0	68	M	NA	NA	NA	NA	NA	NA	4.4	10.86	10.86	Y	N	N	HISEQ_206_3	NA
+CGPLH428	EE88054	0.003485	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.5	6.27	6.27	Y	N	N	HISEQ_206_3	NA
+CGPLH429	EE88055	0.003858	Healthy	cfDNA	Preoperative treatment naive	0	63	F	NA	NA	NA	NA	NA	NA	4.5	3.89	3.89	Y	N	N	HISEQ_206_3	NA
+CGPLH43	EE88056	0.008441	Healthy	cfDNA	Preoperative treatment naive	0	49	F	NA	NA	NA	NA	NA	NA	4	8.5	8.5	Y	N	Y	HWI-D00419_777_1	NA
+CGPLH430	EE88057	0.007096	Healthy	cfDNA	Preoperative treatment naive	0	69	F	NA	NA	NA	NA	NA	NA	4.2	10.33	10.33	Y	N	N	HISEQ_206_1	NA
+CGPLH431	EE88058	0.007315	Healthy	cfDNA	Preoperative treatment naive	0	59	F	NA	NA	NA	NA	NA	NA	4.8	12.81	12.81	Y	N	N	HISEQ_206_3	NA
+CGPLH432	EE88059	0.006833	Healthy	cfDNA	Preoperative treatment naive	0	59	F	NA	NA	NA	NA	NA	NA	4.8	2.42	2.42	Y	N	N	HISEQ_206_3	NA
+CGPLH434	EE88060	0.007956	Healthy	cfDNA	Preoperative treatment naive	0	59	M	NA	NA	NA	NA	NA	NA	4.6	8.83	8.83	Y	N	N	HISEQ_206_2	NA
+CGPLH435	EE88061	0.002951	Healthy	cfDNA	Preoperative treatment naive	0	50	M	NA	NA	NA	NA	NA	NA	4.5	8.95	8.95	Y	N	N	HISEQ_206_2	NA
+CGPLH436	EE88062	0.006103	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.5	4.29	4.29	Y	N	N	HISEQ_206_3	NA
+CGPLH437	EE88063	0.007921	Healthy	cfDNA	Preoperative treatment naive	0	56	M	NA	NA	NA	NA	NA	NA	4.6	18.07	18.07	Y	N	N	HISEQ_206_2	NA
+CGPLH438	EE88064	0.006209	Healthy	cfDNA	Preoperative treatment naive	0	69	M	NA	NA	NA	NA	NA	NA	4.8	16.62	16.62	Y	N	N	HISEQ_206_2	NA
+CGPLH439	EE88065	0.007238	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.7	4.38	4.38	Y	N	N	HISEQ_206_2	NA
+CGPLH440	EE88066	0.002013	Healthy	cfDNA	Preoperative treatment naive	0	72	M	NA	NA	NA	NA	NA	NA	4.7	4.32	4.32	Y	N	N	HISEQ_206_1	NA
+CGPLH441	EE88067	0.005726	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.7	7.8	7.8	Y	N	N	HISEQ_206_1	NA
+CGPLH442	EE88068	0.002704	Healthy	cfDNA	Preoperative treatment naive	0	59	F	NA	NA	NA	NA	NA	NA	4.5	6.15	6.15	Y	N	N	HISEQ_206_1	NA
+CGPLH443	EE88069	0.009781	Healthy	cfDNA	Preoperative treatment naive	0	52	F	NA	NA	NA	NA	NA	NA	4.4	3.44	3.44	Y	N	N	HISEQ_801_7	NA
+CGPLH444	EE88070	0.006945	Healthy	cfDNA	Preoperative treatment naive	0	60	F	NA	NA	NA	NA	NA	NA	4.4	4.12	4.12	Y	N	N	HISEQ_801_7	NA
+CGPLH445	EE88071	0.002492	Healthy	cfDNA	Preoperative treatment naive	0	53	F	NA	NA	NA	NA	NA	NA	4.4	4.38	4.38	Y	N	N	HISEQ_801_6	NA
+CGPLH446	EE88072	0.003293	Healthy	cfDNA	Preoperative treatment naive	0	51	F	NA	NA	NA	NA	NA	NA	4.4	2.92	2.92	Y	N	N	HISEQ_801_6	NA
+CGPLH447	EE88073	0.0059	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.6	3.87	3.87	Y	N	N	HISEQ_801_6	NA
+CGPLH448	EE88074	0.006799	Healthy	cfDNA	Preoperative treatment naive	0	51	F	NA	NA	NA	NA	NA	NA	4.4	5.29	5.29	Y	N	N	HISEQ_801_6	NA
+CGPLH449	EE88075	0.006848	Healthy	cfDNA	Preoperative treatment naive	0	51	F	NA	NA	NA	NA	NA	NA	4.5	3.77	3.77	Y	N	N	HISEQ_801_6	NA
+CGPLH45	EE88076	0.009982	Healthy	cfDNA	Preoperative treatment naive	0	58	F	NA	NA	NA	NA	NA	NA	4	10.85	10.85	Y	N	Y	HWI-D00419_779_2	NA
+CGPLH450	EE88077	0.002053	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.5	5.62	5.62	Y	N	N	HISEQ_801_6	NA
+CGPLH451	EE88078	0.003536	Healthy	cfDNA	Preoperative treatment naive	0	54	F	NA	NA	NA	NA	NA	NA	4.6	7.24	7.24	Y	N	N	HISEQ_801_6	NA
+CGPLH452	EE88079	0	Healthy	cfDNA	Preoperative treatment naive	0	69	M	NA	NA	NA	NA	NA	NA	4.4	2.54	2.54	Y	N	N	HISEQ_801_4	NA
+CGPLH453	EE88080	0.003928	Healthy	cfDNA	Preoperative treatment naive	0	53	F	NA	NA	NA	NA	NA	NA	4.6	9.11	9.11	Y	N	N	HISEQ_203_2	NA
+CGPLH455	EE88081	0.007233	Healthy	cfDNA	Preoperative treatment naive	0	55	F	NA	NA	NA	NA	NA	NA	4.4	2.64	2.64	Y	N	N	HISEQ_203_2	NA
+CGPLH455_Rep	EE88082	0.00983	Healthy	cfDNA, technical replicate	Preoperative treatment naive	0	55	F	NA	NA	NA	NA	NA	NA	4.5	2.42	2.42	Y	N	N	HWI-D00837_138_7	NA
+CGPLH456	EE88083	0.008092	Healthy	cfDNA	Preoperative treatment naive	0	54	F	NA	NA	NA	NA	NA	NA	4.5	3.11	3.11	Y	N	N	HISEQ_801_4	NA
+CGPLH457	EE88084	0.0073	Healthy	cfDNA	Preoperative treatment naive	0	54	F	NA	NA	NA	NA	NA	NA	4.4	5.92	5.92	Y	N	N	HISEQ_801_4	NA
+CGPLH458	EE88085	0.006367	Healthy	cfDNA	Preoperative treatment naive	0	52	F	NA	NA	NA	NA	NA	NA	4.5	16.04	16.04	Y	N	N	HISEQ_801_4	NA
+CGPLH459	EE88086	0.002516	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.4	6.52	6.52	Y	N	N	HISEQ_801_4	NA
+CGPLH46	EE88087	0.00932	Healthy	cfDNA	Preoperative treatment naive	0	35	F	NA	NA	NA	NA	NA	NA	4	8.25	8.25	Y	N	Y	HWI-D00419_777_2	NA
+CGPLH460	EE88088	0.006784	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.6	5.24	5.24	Y	N	N	HISEQ_801_4	NA
+CGPLH463	EE88089	0.003439	Healthy	cfDNA	Preoperative treatment naive	0	53	F	NA	NA	NA	NA	NA	NA	4.5	22.77	22.77	Y	N	N	HISEQ_801_4	NA
+CGPLH464	EE88090	0.006213	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.4	2.9	2.9	Y	N	N	HISEQ_801_2	NA
+CGPLH465	EE88091	0.005025	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.5	4.76	4.76	Y	N	N	HISEQ_801_2	NA
+CGPLH466	EE88092	0.007485	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.6	5.68	5.68	Y	N	N	HISEQ_203_2	NA
+CGPLH466_Rep	EE88093	0.005608	Healthy	cfDNA, technical replicate	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.5	6.75	6.75	Y	N	N	HWI-D00837_138_6	NA
+CGPLH467	EE88094	0.003243	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.5	4.59	4.59	Y	N	N	HISEQ_801_2	NA
+CGPLH468	EE88095	0.006997	Healthy	cfDNA	Preoperative treatment naive	0	53	M	NA	NA	NA	NA	NA	NA	4.5	11.19	11.19	Y	N	N	HISEQ_801_2	NA
+CGPLH469	EE88096	0.003157	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.5	3.25	3.25	Y	N	N	HISEQ_801_2	NA
+CGPLH47	EE88097	0.008362	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4	7.43	7.43	Y	N	Y	HWI-D00419_780_1	NA
+CGPLH470	EE88098	0.002805	Healthy	cfDNA	Preoperative treatment naive	0	68	F	NA	NA	NA	NA	NA	NA	4.5	13.64	13.64	Y	N	N	HISEQ_801_2	NA
+CGPLH471	EE88099	0.002626	Healthy	cfDNA	Preoperative treatment naive	0	70	F	NA	NA	NA	NA	NA	NA	4.3	13	13	Y	N	N	HISEQ_801_2	NA
+CGPLH472	EE88100	0.01008	Healthy	cfDNA	Preoperative treatment naive	0	69	F	NA	NA	NA	NA	NA	NA	4.2	10.17	10.17	Y	N	N	HISEQ_801_3	NA
+CGPLH473	EE88101	0.009064	Healthy	cfDNA	Preoperative treatment naive	0	62	M	NA	NA	NA	NA	NA	NA	4.3	2.98	2.98	Y	N	N	HISEQ_801_3	NA
+CGPLH474	EE88102	0.01039	Healthy	cfDNA	Preoperative treatment naive	0	63	M	NA	NA	NA	NA	NA	NA	4.3	29.15	29.15	Y	N	N	HISEQ_801_3	NA
+CGPLH475	EE88103	0.008859	Healthy	cfDNA	Preoperative treatment naive	0	67	F	NA	NA	NA	NA	NA	NA	4	7.26	7.26	Y	N	N	HISEQ_801_3	NA
+CGPLH476	EE88104	0.007905	Healthy	cfDNA	Preoperative treatment naive	0	65	F	NA	NA	NA	NA	NA	NA	4.3	6.16	6.16	Y	N	N	HISEQ_801_3	NA
+CGPLH477	EE88105	0.003448	Healthy	cfDNA	Preoperative treatment naive	0	61	F	NA	NA	NA	NA	NA	NA	4.3	15.21	15.21	Y	N	N	HISEQ_801_3	NA
+CGPLH478	EE88106	0.006683	Healthy	cfDNA	Preoperative treatment naive	0	51	F	NA	NA	NA	NA	NA	NA	4.4	7.29	7.29	Y	N	N	HISEQ_801_3	NA
+CGPLH479	EE88107	0.003141	Healthy	cfDNA	Preoperative treatment naive	0	52	M	NA	NA	NA	NA	NA	NA	4.5	8.73	8.73	Y	N	N	HISEQ_801_1	NA
+CGPLH48	EE88108	0.008823	Healthy	cfDNA	Preoperative treatment naive	0	38	F	NA	NA	NA	NA	NA	NA	4	6.38	6.38	Y	N	Y	HWI-D00419_780_1	NA
+CGPLH480	EE88109	0.003107	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.4	10.62	10.62	Y	N	N	HISEQ_801_1	NA
+CGPLH481	EE88110	0.005881	Healthy	cfDNA	Preoperative treatment naive	0	53	F	NA	NA	NA	NA	NA	NA	4.3	6.75	6.75	Y	N	N	HISEQ_801_1	NA
+CGPLH482	EE88111	0.005312	Healthy	cfDNA	Preoperative treatment naive	0	50	M	NA	NA	NA	NA	NA	NA	4.3	23.58	23.58	Y	N	N	HISEQ_801_1	NA
+CGPLH483	EE88112	0.00244	Healthy	cfDNA	Preoperative treatment naive	0	66	M	NA	NA	NA	NA	NA	NA	4.4	14.44	14.44	Y	N	N	HISEQ_801_1	NA
+CGPLH484	EE88113	0.007104	Healthy	cfDNA	Preoperative treatment naive	0	72	M	NA	NA	NA	NA	NA	NA	4.2	14.32	14.32	Y	N	N	HISEQ_801_1	NA
+CGPLH485	EE88114	0.003088	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.3	9.64	9.64	Y	N	N	HISEQ_801_1	NA
+CGPLH486	EE88115	0.003766	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.3	10.16	10.16	Y	N	N	HISEQ_801_5	NA
+CGPLH487	EE88116	0.005361	Healthy	cfDNA	Preoperative treatment naive	0	50	M	NA	NA	NA	NA	NA	NA	4.4	6.11	6.11	Y	N	N	HISEQ_801_5	NA
+CGPLH488	EE88117	0.003252	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.5	7.88	7.88	Y	N	N	HISEQ_801_5	NA
+CGPLH49	EE88118	0.00584	Healthy	cfDNA	Preoperative treatment naive	0	39	F	NA	NA	NA	NA	NA	NA	4	6.6	6.6	Y	N	Y	HWI-D00419_788_1	NA
+CGPLH490	EE88119	0.01511	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.5	4.18	4.18	Y	N	N	HISEQ_801_5	NA
+CGPLH491	EE88120	0.00398	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.5	13.16	13.16	Y	N	N	HISEQ_801_5	NA
+CGPLH492	EE88121	0.002482	Healthy	cfDNA	Preoperative treatment naive	0	51	F	NA	NA	NA	NA	NA	NA	4.5	3.83	3.83	Y	N	N	HISEQ_801_5	NA
+CGPLH493	EE88122	0.005876	Healthy	cfDNA	Preoperative treatment naive	0	64	M	NA	NA	NA	NA	NA	NA	4.5	25.06	25.06	Y	N	N	HISEQ_801_5	NA
+CGPLH494	EE88123	0.006198	Healthy	cfDNA	Preoperative treatment naive	0	53	F	NA	NA	NA	NA	NA	NA	4.4	5.24	5.24	Y	N	N	HISEQ_801_7	NA
+CGPLH495	EE88124	0.00535	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.4	5.03	5.03	Y	N	N	HWI-D00837_139_6	NA
+CGPLH496	EE88125	0.003194	Healthy	cfDNA	Preoperative treatment naive	0	74	M	NA	NA	NA	NA	NA	NA	4.5	34.01	27.78	Y	N	N	HWI-D00837_139_6	NA
+CGPLH497	EE88126	0	Healthy	cfDNA	Preoperative treatment naive	0	68	F	NA	NA	NA	NA	NA	NA	4.5	8.24	8.24	Y	N	N	HWI-D00837_139_6	NA
+CGPLH497_Rep	EE88127	0.003256	Healthy	cfDNA, technical replicate	Preoperative treatment naive	0	68	F	NA	NA	NA	NA	NA	NA	4.4	5.88	5.88	Y	N	N	HWI-D00837_138_6	NA
+CGPLH498	EE88128	0.00597	Healthy	cfDNA	Preoperative treatment naive	0	54	F	NA	NA	NA	NA	NA	NA	4.4	5.33	5.33	Y	N	N	HWI-D00837_139_6	NA
+CGPLH499	EE88129	0.004419	Healthy	cfDNA	Preoperative treatment naive	0	52	F	NA	NA	NA	NA	NA	NA	4.5	7.85	7.85	Y	N	N	HWI-D00837_139_6	NA
+CGPLH50	EE88130	0.008061	Healthy	cfDNA	Preoperative treatment naive	0	55	F	NA	NA	NA	NA	NA	NA	4	7.05	7.05	Y	N	Y	HWI-D00419_788_1	NA
+CGPLH500	EE88131	0.007814	Healthy	cfDNA	Preoperative treatment naive	0	51	F	NA	NA	NA	NA	NA	NA	4.5	3.49	3.49	Y	N	N	HWI-D00837_139_5	NA
+CGPLH501	EE88132	0.007412	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.3	6.29	6.29	Y	N	N	HWI-D00837_139_6	NA
+CGPLH502	EE88133	0.0094	Healthy	cfDNA	Preoperative treatment naive	0	53	F	NA	NA	NA	NA	NA	NA	4.5	2.24	2.24	Y	N	N	HWI-D00837_139_8	NA
+CGPLH503	EE88134	0.006419	Healthy	cfDNA	Preoperative treatment naive	0	67	M	NA	NA	NA	NA	NA	NA	4.5	11.01	11.01	Y	N	N	HWI-D00837_139_8	NA
+CGPLH504	EE88135	0.005589	Healthy	cfDNA	Preoperative treatment naive	0	57	F	NA	NA	NA	NA	NA	NA	4.3	6.6	6.6	Y	N	N	HWI-D00837_139_8	NA
+CGPLH504_Rep	EE88136	0.006915	Healthy	cfDNA, technical replicate	Preoperative treatment naive	0	57	F	NA	NA	NA	NA	NA	NA	4.2	10.02	10.02	Y	N	N	HWI-D00837_138_8	NA
+CGPLH505	EE88137	0.004157	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.1	5.23	5.23	Y	N	N	HWI-D00837_139_7	NA
+CGPLH506	EE88138	0.005334	Healthy	cfDNA	Preoperative treatment naive	0	51	F	NA	NA	NA	NA	NA	NA	4.5	12.23	12.23	Y	N	N	HWI-D00837_139_8	NA
+CGPLH507	EE88139	0.01118	Healthy	cfDNA	Preoperative treatment naive	0	56	M	NA	NA	NA	NA	NA	NA	4.1	9.89	9.89	Y	N	N	HWI-D00837_139_8	NA
+CGPLH508	EE88140	0.01116	Healthy	cfDNA	Preoperative treatment naive	0	54	F	NA	NA	NA	NA	NA	NA	4.5	8.68	8.68	Y	N	N	HWI-D00837_139_8	NA
+CGPLH508_Rep	EE88141	0.008903	Healthy	cfDNA, technical replicate	Preoperative treatment naive	0	54	F	NA	NA	NA	NA	NA	NA	4.4	9.55	9.55	Y	N	N	HWI-D00837_138_7	NA
+CGPLH509	EE88142	0.007494	Healthy	cfDNA	Preoperative treatment naive	0	60	M	NA	NA	NA	NA	NA	NA	4	9.79	9.79	Y	N	N	HISEQ_801_8	NA
+CGPLH51	EE88143	0.004344	Healthy	cfDNA	Preoperative treatment naive	0	48	F	NA	NA	NA	NA	NA	NA	4	7.85	7.85	Y	N	Y	HWI-D00419_787_2	NA
+CGPLH510	EE88144	0.007345	Healthy	cfDNA	Preoperative treatment naive	0	67	M	NA	NA	NA	NA	NA	NA	4.2	14.2	14.2	Y	N	N	HISEQ_801_8	NA
+CGPLH511	EE88145	0.005689	Healthy	cfDNA	Preoperative treatment naive	0	75	M	NA	NA	NA	NA	NA	NA	4.5	12.94	12.94	Y	N	N	HWI-D00837_139_5	NA
+CGPLH512	EE88146	0.003289	Healthy	cfDNA	Preoperative treatment naive	0	52	M	NA	NA	NA	NA	NA	NA	4.3	8.6	8.6	Y	N	N	HISEQ_801_8	NA
+CGPLH513	EE88147	0.005673	Healthy	cfDNA	Preoperative treatment naive	0	57	M	NA	NA	NA	NA	NA	NA	4.3	6.54	6.54	Y	N	N	HISEQ_801_8	NA
+CGPLH514	EE88148	0.002759	Healthy	cfDNA	Preoperative treatment naive	0	55	F	NA	NA	NA	NA	NA	NA	4.4	10.94	10.94	Y	N	N	HWI-D00837_139_7	NA
+CGPLH515	EE88149	0.005175	Healthy	cfDNA	Preoperative treatment naive	0	68	F	NA	NA	NA	NA	NA	NA	4.5	8.71	8.71	Y	N	N	HWI-D00837_139_7	NA
+CGPLH516	EE88150	0.004926	Healthy	cfDNA	Preoperative treatment naive	0	65	F	NA	NA	NA	NA	NA	NA	4.5	7.32	7.32	Y	N	N	HWI-D00837_139_7	NA
+CGPLH517	EE88151	0.004306	Healthy	cfDNA	Preoperative treatment naive	0	54	F	NA	NA	NA	NA	NA	NA	4.6	5.16	5.16	Y	N	N	HWI-D00133R_171_8	NA
+CGPLH517_Rep	EE88152	0.005917	Healthy	cfDNA, technical replicate	Preoperative treatment naive	0	54	F	NA	NA	NA	NA	NA	NA	4.5	9.74	9.74	Y	N	N	HWI-D00837_138_8	NA
+CGPLH518	EE88153	0.006675	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.4	5.92	5.92	Y	N	N	HWI-D00133R_171_8	NA
+CGPLH519	EE88154	0.002841	Healthy	cfDNA	Preoperative treatment naive	0	54	M	NA	NA	NA	NA	NA	NA	4.4	6.96	6.96	Y	N	N	HWI-D00837_139_5	NA
+CGPLH52	EE88155	0.01168	Healthy	cfDNA	Preoperative treatment naive	0	40	F	NA	NA	NA	NA	NA	NA	4	9.9	9.9	Y	N	Y	HWI-D00419_788_2	NA
+CGPLH520	EE88156	0.005097	Healthy	cfDNA	Preoperative treatment naive	0	51	F	NA	NA	NA	NA	NA	NA	4.3	8.27	8.27	Y	N	N	HWI-D00837_139_7	NA
+CGPLH54	EE88157	0.004247	Healthy	cfDNA	Preoperative treatment naive	0	47	F	NA	NA	NA	NA	NA	NA	4	14.18	14.18	Y	N	Y	HWI-D00419_787_2	NA
+CGPLH55	EE88158	0.01075	Healthy	cfDNA	Preoperative treatment naive	0	46	F	NA	NA	NA	NA	NA	NA	4	7.35	7.35	Y	N	Y	HWI-D00419_799_1	NA
+CGPLH56	EE88159	0.009234	Healthy	cfDNA	Preoperative treatment naive	0	42	F	NA	NA	NA	NA	NA	NA	4	5.2	5.2	Y	N	Y	HWI-D00419_799_1	NA
+CGPLH57	EE88160	0.009825	Healthy	cfDNA	Preoperative treatment naive	0	39	F	NA	NA	NA	NA	NA	NA	4	7.15	7.15	Y	N	Y	HWI-D00419_802_2	NA
+CGPLH59	EE88161	0.005999	Healthy	cfDNA	Preoperative treatment naive	0	34	F	NA	NA	NA	NA	NA	NA	4	6.03	6.03	Y	N	Y	HWI-D00419_802_1	NA
+CGPLH625	EE88162	0.002311	Healthy	cfDNA	Preoperative treatment naive	0	53	F	NA	NA	NA	NA	NA	NA	4.5	2.64	2.64	Y	N	N	HISEQ_203_3	NA
+CGPLH625_Rep	EE88163	0	Healthy	cfDNA	Preoperative treatment naive	0	53	F	NA	NA	NA	NA	NA	NA	4.5	2.69	2.69	Y	N	N	HWI-D00837_138_6	NA
+CGPLH626	EE88164	0.01056	Healthy	cfDNA, technical replicate	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4	11.12	11.12	Y	N	N	HISEQ_203_5	NA
+CGPLH63	EE88165	0.01175	Healthy	cfDNA	Preoperative treatment naive	0	47	F	NA	NA	NA	NA	NA	NA	4	10.1	10.1	Y	N	Y	HWI-D00419_825_2	NA
+CGPLH639	EE88166	0.005575	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.5	2	2	Y	N	N	HISEQ_203_5	NA
+CGPLH64	EE88167	0.01365	Healthy	cfDNA	Preoperative treatment naive	0	55	F	NA	NA	NA	NA	NA	NA	4	8.03	8.03	Y	N	Y	HWI-D00419_825_1	NA
+CGPLH640	EE88168	0.008822	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.5	9.36	9.36	Y	N	N	HISEQ_205_7	NA
+CGPLH642	EE88169	0.002137	Healthy	cfDNA	Preoperative treatment naive	0	54	F	NA	NA	NA	NA	NA	NA	4.5	4.99	4.99	Y	N	N	HISEQ_205_7	NA
+CGPLH643	EE88170	0.005489	Healthy	cfDNA	Preoperative treatment naive	0	55	F	NA	NA	NA	NA	NA	NA	4.4	7.12	7.12	Y	N	N	HISEQ_205_5	NA
+CGPLH644	EE88171	0.003766	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.4	5.06	5.06	Y	N	N	HISEQ_205_5	NA
+CGPLH646	EE88172	0.009689	Healthy	cfDNA	Preoperative treatment naive	0	50	F	NA	NA	NA	NA	NA	NA	4.4	6.75	6.75	Y	N	N	HISEQ_205_5	NA
+CGPLH75	EE88173	0.001704	Healthy	cfDNA	Preoperative treatment naive	0	46	F	NA	NA	NA	NA	NA	NA	4	3.87	3.87	Y	N	Y	HWI-D00812_78_CAU6YANXX_4_2115_11514_65665#CGCTGATCACCACTGT_0_0	NA
+CGPLH76	EE88174	0.00707	Healthy	cfDNA	Preoperative treatment naive	0	53	F	NA	NA	NA	NA	NA	NA	4	4.03	4.03	Y	N	Y	HWI-D00812_78_CAU6YANXX_4_2116_6381_70882#AACGCTTACACGTGAT_0_0	NA
+CGPLH77	EE88175	0.005747	Healthy	cfDNA	Preoperative treatment naive	0	46	F	NA	NA	NA	NA	NA	NA	4	5.89	5.89	Y	N	Y	HWI-D00812_78_CAU6YANXX_6_1104_12593_62476#CGCTGATCCATCAAGT_0_0	NA
+CGPLH78	EE88176	0.003414	Healthy	cfDNA	Preoperative treatment naive	0	34	F	NA	NA	NA	NA	NA	NA	4	2.51	2.51	Y	N	Y	HWI-D00812_78_CAU6YANXX_5_1204_20304_48520#CATACCAAAGCAGGAA_0_0	NA
+CGPLH79	EE88177	0.009939	Healthy	cfDNA	Preoperative treatment naive	0	37	F	NA	NA	NA	NA	NA	NA	4	3.68	3.68	Y	N	Y	HWI-D00812_78_CAU6YANXX_2_2114_7738_71901#AACCGAGAATGCCTAC_0_0	NA
+CGPLH80	EE88178	0.004848	Healthy	cfDNA	Preoperative treatment naive	0	37	F	NA	NA	NA	NA	NA	NA	4	1.94	1.94	Y	N	Y	HWI-D00812_78_CAU6YANXX_6_2309_5070_23000#CAGCGTTAAGAGTCAA_0_0	NA
+CGPLH81	EE88179	0.004481	Healthy	cfDNA	Preoperative treatment naive	0	54	F	NA	NA	NA	NA	NA	NA	4	5.16	5.16	Y	N	Y	HWI-D00812_78_CAU6YANXX_2_2106_15270_73757#ACAAGCTAATGCCTAA_0_0	NA
+CGPLH82	EE88180	0.003311	Healthy	cfDNA	Preoperative treatment naive	0	38	F	NA	NA	NA	NA	NA	NA	4	3.3	3.3	Y	N	Y	HWI-D00812_78_CAU6YANXX_5_2304_18714_56813#AACAACCAAAACATCG_0_0	NA
+CGPLH83	EE88181	0.009416	Healthy	cfDNA	Preoperative treatment naive	0	60	F	NA	NA	NA	NA	NA	NA	4	5.04	5.04	Y	N	Y	HWI-D00812_78_CAU6YANXX_5_1209_15423_48408#CTGTAGCCACATTGGC_0_0	NA
+CGPLH84	EE88182	0.005691	Healthy	cfDNA	Preoperative treatment naive	0	45	F	NA	NA	NA	NA	NA	NA	4	3.33	3.33	Y	N	Y	HWI-D00812_78_CAU6YANXX_5_2309_5092_53684#CACTTCGAACGCTCGA_0_0	NA
+CGPLLU13_D-2	EE88186	0.07533	Lung Cancer	cfDNA	Pre-treatment, Day -2	-2	72	F	IV	T1BN2bM1a	Right Lung	Adenocarcinoma	NA	Bone	5	7.67	7.67	Y	N	Y	HWI-D00837_132_6	IV
+CGPLLU13_D28	EE88183	0.05021	Lung Cancer	cfDNA	Post-treatment, Day 28	28	72	F	IV	T1BN2bM1a	Right Lung	Adenocarcinoma	NA	Bone	3.2	8.66	8.66	Y	N	Y	HWI-D00837_132_5	IV
+CGPLLU13_D5	EE88184	0.1335	Lung Cancer	cfDNA	Post-treatment, Day 5	5	72	F	IV	T1BN2bM1a	Right Lung	Adenocarcinoma	NA	Bone	4.5	8.39	8.39	Y	N	Y	HWI-D00837_132_5	IV
+CGPLLU13_D91	EE88185	0.08308	Lung Cancer	cfDNA	Post-treatment, Day 91	91	72	F	IV	T1BN2bM1a	Right Lung	Adenocarcinoma	NA	Bone	5	5.97	5.97	Y	N	Y	HWI-D00837_132_5	IV
+CGPLLU14_D-16	EE88190	0.01067	Lung Cancer	cfDNA	Pre-treatment, Day -16	16	55	F	IV	T1N1M0	Right Lower Lobe of Lung	Adenocarcinoma	Moderate	NA	2	2.55	2.55	Y	N	Y	HISEQ_173_8	IV
+CGPLLU14_D-3	EE88191	0.01488	Lung Cancer	cfDNA	Pre-treatment, Day -3	-3	55	F	IV	T1N1M0	Right Lower Lobe of Lung	Adenocarcinoma	Moderate	NA	2	2.55	2.55	Y	N	Y	HISEQ_173_8	IV
+CGPLLU14_D-38	EE88192	0.02579	Lung Cancer	cfDNA	Pre-treatment, Day -38	-38	55	F	IV	T1N1M0	Right Lower Lobe of Lung	Adenocarcinoma	Moderate	NA	2	2.55	2.55	Y	N	Y	HISEQ_172_1	IV
+CGPLLU14_D0	EE88189	0.03886	Lung Cancer	cfDNA	Pre-treatment, Day 0	0	55	F	IV	T1N1M0	Right Lower Lobe of Lung	Adenocarcinoma	Moderate	NA	2	2.55	2.55	Y	N	Y	HISEQ_173_8	IV
+CGPLLU14_D0.33	EE88187	0.02789	Lung Cancer	cfDNA	Post-treatment, Day 0.33	0.33	55	F	IV	T1N1M0	Right Lower Lobe of Lung	Adenocarcinoma	Moderate	NA	2	2.55	2.55	Y	N	Y	HWI-D00419_1525_1	IV
+CGPLLU14_D7	EE88188	0.00799	Lung Cancer	cfDNA	Post-treatment, Day 7	7	55	F	IV	T1N1M0	Right Lower Lobe of Lung	Adenocarcinoma	Moderate	NA	2	2.55	2.55	Y	N	Y	HISEQ_173_8	IV
+CGPLLU144	EE88193	0.03839	Lung Cancer	cfDNA	Preoperative treatment naive	0	52	M	II	T2aN1M0	Lung	Adenocarcinoma	Poor	None	3.5	31.51	31.51	Y	Y	Y	HWI-D00837_40_1	II
+CGPLLU147	EE88194	0.01015	Lung Cancer	cfDNA	Preoperative treatment naive	0	60	M	III	T3N2M0	Lung	Adenosquamous Carcinoma	Poor	None	3.8	6.72	6.72	Y	Y	Y	HWI-D00837_40_3	III
+CGPLLU161	EE88195	0.004363	Lung Cancer	cfDNA	Preoperative treatment naive	0	41	F	II	T3N0M0	Lung	Adenocarcinoma	Well	None	4	83.04	83.04	Y	N	Y	HWI-D00792_379_1	II
+CGPLLU162	EE88196	0.006176	Lung Cancer	cfDNA	Preoperative treatment naive	0	38	M	II	T1N1M0	Right Lung	Adenocarcinoma	Moderate	None	3.1	40.32	40.32	Y	Y	Y	HWI-D00792_378_1	II
+CGPLLU163	EE88197	0.1343	Lung Cancer	cfDNA	Preoperative treatment naive	0	66	M	II	T1N1M0	Left Lung	Adenocarcinoma	Poor	None	5	54.03	54.03	Y	Y	Y	HWI-D00792_378_3	II
+CGPLLU165	EE88198	0.007041	Lung Cancer	cfDNA	Preoperative treatment naive	0	68	F	II	T1N1M0	Right Lung	Adenocarcinoma	Well	None	4.5	20.13	20.13	Y	Y	Y	HWI-D00837_40_2	II
+CGPLLU168	EE88199	0.005954	Lung Cancer	cfDNA	Preoperative treatment naive	0	70	F	I	T2aN0M0	Lung	Adenocarcinoma	Poor	None	4.3	19.38	19.38	Y	Y	Y	HWI-D00837_40_2	I
+CGPLLU169	EE88200	0.00691	Lung Cancer	cfDNA	Preoperative treatment naive	0	64	M	I	T1bN0M0	Lung	Squamous Cell Carcinoma	Moderate	None	4.2	13.7	13.7	Y	N	Y	HISEQ_172_3	I
+CGPLLU175	EE88201	0.0902	Lung Cancer	cfDNA	Preoperative treatment naive	0	47	M	I	T2N0M0	Lung	Squamous Cell Carcinoma	Moderate	None	4.4	16.84	16.84	Y	Y	Y	HWI-D00837_40_4	I
+CGPLLU176	EE88202	0.004557	Lung Cancer	cfDNA	Preoperative treatment naive	0	58	M	I	T2N0M0	Lung	Adenosquamous Carcinoma	Moderate	None	3.2	7.86	7.86	Y	Y	Y	HISEQ_172_6	I
+CGPLLU177	EE88203	0.02841	Lung Cancer	cfDNA	Preoperative treatment naive	0	45	M	II	T3N0M0	Right Lung	Adenocarcinoma	NA	None	3.9	19.07	19.07	Y	Y	Y	HWI-D00837_40_5	II
+CGPLLU180	EE88204	0.02083	Lung Cancer	cfDNA	Preoperative treatment naive	0	57	M	I	T2N0M0	Right Lung	Large Cell Carcinoma	Poor	None	3.2	19.31	19.31	Y	Y	Y	HWI-D00837_40_4	I
+CGPLLU198	EE88205	0.006386	Lung Cancer	cfDNA	Preoperative treatment naive	0	49	F	I	T2N0M0	Left Lung	Adenocarcinoma	Moderate	None	4.2	14.09	14.09	Y	Y	Y	HWI-D00837_40_6	I
+CGPLLU202	EE88206	0.01163	Lung Cancer	cfDNA	Preoperative treatment naive	0	68	M	I	T2aN0M0	Right Lung	Adenocarcinoma	NA	None	4.4	24.72	24.72	Y	Y	Y	HWI-D00837_40_5	I
+CGPLLU203	EE88207	0.007176	Lung Cancer	cfDNA	Preoperative treatment naive	0	66	M	II	T3N0M0	Right Lung	Squamous Cell Carcinoma	Well	None	4.2	26.24	26.24	Y	N	Y	HWI-D00837_40_7	II
+CGPLLU205	EE88208	0.008202	Lung Cancer	cfDNA	Preoperative treatment naive	0	65	M	II	T3N0M0	Left Lung	Adenocarcinoma	Poor	None	4	18.56	18.56	Y	Y	Y	HWI-D00792_378_8	II
+CGPLLU206	EE88209	0.2403	Lung Cancer	cfDNA	Preoperative treatment naive	0	55	M	III	T3N1M0	Right Lung	Squamous Cell Carcinoma	Poor	None	3.5	18.24	18.24	Y	Y	Y	HWI-D00837_40_7	III
+CGPLLU207	EE88210	0.007492	Lung Cancer	cfDNA	Preoperative treatment naive	0	60	F	II	T2N1M0	Lung	Adenocarcinoma	Well	None	4	17.29	17.29	Y	Y	Y	HWI-D00792_378_1	II
+CGPLLU208	EE88211	0.0126	Lung Cancer	cfDNA	Preoperative treatment naive	0	56	F	II	T2N1M0	Lung	Adenocarcinoma	Moderate	None	3	24.34	24.34	Y	Y	Y	HWI-D00837_112_1	II
+CGPLLU209	EE88212	0.1431	Lung Cancer	cfDNA	Preoperative treatment naive	0	65	M	II	T2aN0M0	Lung	Large Cell Carcinoma	Poor	None	5.5	53.95	53.95	Y	Y	Y	HWI-D00837_40_8	II
+CGPLLU244_D-1	EE88215	0.04921	Lung Cancer	cfDNA	Pre-treatment, Day -1	-1	66	F	IV	NA	Right Upper Lobe of Lung	Adenocarcinoma	Moderate/Poor	Liver, Rib, Brain, Pleura	4.5	17.84	17.84	Y	N	Y	HISEQ_177_4	IV
+CGPLLU244_D-7	EE88216	0.06254	Lung Cancer	cfDNA	Pre-treatment, Day -7	-7	66	F	IV	NA	Right Upper Lobe of Lung	Adenocarcinoma	Moderate/Poor	Liver, Rib, Brain, Pleura	4.5	17.84	17.84	Y	N	Y	HISEQ_177_4	IV
+CGPLLU244_D6	EE88213	0.07437	Lung Cancer	cfDNA	Post-treatment, Day 6	6	66	F	IV	NA	Right Upper Lobe of Lung	Adenocarcinoma	Moderate/Poor	Liver, Rib, Brain, Pleura	4.5	17.84	17.84	Y	N	Y	HISEQ_177_3	IV
+CGPLLU244_D62	EE88214	0.1463	Lung Cancer	cfDNA	Post-treatment, Day 62	62	66	F	IV	NA	Right Upper Lobe of Lung	Adenocarcinoma	Moderate/Poor	Liver, Rib, Brain, Pleura	4.5	17.84	17.84	Y	N	Y	HISEQ_177_4	IV
+CGPLLU245_D-32	EE88220	0.09572	Lung Cancer	cfDNA	Pre-treatment, Day -32	-32	49	M	IV	T2aN2M1B	Left Upper Lobe of Lung	Adenocarcinoma	NA	Brain	4.7	19.42	19.42	Y	N	Y	HISEQ_177_3	IV
+CGPLLU245_D0	EE88219	0.1593	Lung Cancer	cfDNA	Pre-treatment, Day 0	0	49	M	IV	T2aN2M1B	Left Upper Lobe of Lung	Adenocarcinoma	NA	Brain	4.7	19.42	19.42	Y	N	Y	HISEQ_177_3	IV
+CGPLLU245_D21	EE88217	0.1132	Lung Cancer	cfDNA	Post-treatment, Day 21	21	49	M	IV	T2aN2M1B	Left Upper Lobe of Lung	Adenocarcinoma	NA	Brain	4.7	19.42	19.42	Y	N	Y	HISEQ_177_3	IV
+CGPLLU245_D7	EE88218	0.08677	Lung Cancer	cfDNA	Post-treatment, Day 7	7	49	M	IV	T2aN2M1B	Left Upper Lobe of Lung	Adenocarcinoma	NA	Brain	4.7	19.42	19.42	Y	N	Y	HISEQ_177_3	IV
+CGPLLU246_D-21	EE88224	0.0106	Lung Cancer	cfDNA	Pre-treatment, Day -21	-21	65	F	IV	NA	Right Lower Lobe of Lung	Adenocarcinoma	Poor	Pleura	5.5	18.51	18.51	Y	N	Y	HWI-D00837_112_8	IV
+CGPLLU246_D0	EE88223	0.07704	Lung Cancer	cfDNA	Pre-treatment, Day 0	0	65	F	IV	NA	Right Lower Lobe of Lung	Adenocarcinoma	Poor	Pleura	5.5	18.51	18.51	Y	N	Y	HISEQ_177_3	IV
+CGPLLU246_D42	EE88221	0.05493	Lung Cancer	cfDNA	Post-treatment, Day 42	42	65	F	IV	NA	Right Lower Lobe of Lung	Adenocarcinoma	Poor	Pleura	5.5	18.51	18.51	Y	N	Y	HWI-D00837_112_8	IV
+CGPLLU246_D9	EE88222	0.04247	Lung Cancer	cfDNA	Post-treatment, Day 9	9	65	F	IV	NA	Right Lower Lobe of Lung	Adenocarcinoma	Poor	Pleura	5.5	18.51	18.51	Y	N	Y	HWI-D00837_112_8	IV
+CGPLLU264_D-1	EE88228	0.005349	Lung Cancer	cfDNA	Pre-treatment, Day -1	-1	84	M	IV	T4N2BM1	Left Middle Lung	Adenocarcinoma	NA	Lung	4	22.97	22.97	Y	N	Y	HWI-D00837_132_2	IV+M
+CGPLLU264_D27	EE88225	0.001796	Lung Cancer	cfDNA	Post-treatment, Day 27	27	84	M	IV	T4N2BM1	Left Middle Lung	Adenocarcinoma	NA	Lung	3	7.15	7.15	Y	N	Y	HWI-D00837_132_6	IV+M
+CGPLLU264_D6	EE88226	0.003536	Lung Cancer	cfDNA	Post-treatment, Day 6	6	84	M	IV	T4N2BM1	Left Middle Lung	Adenocarcinoma	NA	Lung	4.5	10.53	10.53	Y	N	Y	HWI-D00837_132_2	IV+M
+CGPLLU264_D69	EE88227	0.005335	Lung Cancer	cfDNA	Post-treatment, Day 69	69	84	M	IV	T4N2BM1	Left Middle Lung	Adenocarcinoma	NA	Lung	4	9.6	9.6	Y	N	Y	HWI-D00837_132_6	IV+M
+CGPLLU265_D0	EE88232	0.007855	Lung Cancer	cfDNA	Pre-treatment, Day 0	0	71	F	IV	T1N0Mx	Left Lower Lobe of Lung	Adenocarcinoma	NA	None	4.2	7.16	7.16	Y	N	Y	HWI-D00837_132_6	IV
+CGPLLU265_D3	EE88229	0.004372	Lung Cancer	cfDNA	Post-treatment, Day 3	3	71	F	IV	T1N0Mx	Left Lower Lobe of Lung	Adenocarcinoma	NA	None	4	8.11	8.11	Y	N	Y	HWI-D00837_132_6	IV
+CGPLLU265_D7	EE88230	0.006133	Lung Cancer	cfDNA	Post-treatment, Day 7	7	71	F	IV	T1N0Mx	Left Lower Lobe of Lung	Adenocarcinoma	NA	None	4.2	7.53	7.53	Y	N	Y	HWI-D00837_132_6	IV
+CGPLLU265_D84	EE88231	0.006205	Lung Cancer	cfDNA	Post-treatment, Day 84	84	71	F	IV	T1N0Mx	Left Lower Lobe of Lung	Adenocarcinoma	NA	None	5	16.17	16.17	Y	N	Y	HWI-D00837_132_2	IV
+CGPLLU266_D0	EE88236	0.003066	Lung Cancer	cfDNA	Pre-treatment, Day 0	0	78	M	IV	T2aN1	Left Lower Lobe of Lung	Adenocarcinoma	Moderate	None	5	5.32	5.32	Y	N	Y	HWI-D00837_132_6	IV
+CGPLLU266_D16	EE88233	0.004354	Lung Cancer	cfDNA	Post-treatment, Day 16	16	78	M	IV	T2aN1	Left Lower Lobe of Lung	Adenocarcinoma	Moderate	None	3.5	6.31	6.31	Y	N	Y	HWI-D00837_132_2	IV
+CGPLLU266_D328	EE88234	0.004779	Lung Cancer	cfDNA	Post-treatment, Day 328	328	78	M	IV	T2aN1	Left Lower Lobe of Lung	Adenocarcinoma	Moderate	None	5	14.39	14.39	Y	N	Y	HWI-D00837_132_2	IV
+CGPLLU266_D83	EE88235	0.002147	Lung Cancer	cfDNA	Post-treatment, Day 83	83	78	M	IV	T2aN1	Left Lower Lobe of Lung	Adenocarcinoma	Moderate	None	5	7.64	7.64	Y	N	Y	HWI-D00837_132_2	IV
+CGPLLU267_D-1	EE88239	0.01887	Lung Cancer	cfDNA	Pre-treatment, Day -1	-1	55	F	IV	T3NxM1a	Right Upper Lobe of Lung	Squamous Cell Carcinoma	Poor	Lung	4.5	2.87	2.87	Y	N	Y	HWI-D00837_132_3	IV
+CGPLLU267_D34	EE88237	0.007171	Lung Cancer	cfDNA	Post-treatment, Day 34	34	55	F	IV	T3NxM1a	Right Upper Lobe of Lung	Squamous Cell Carcinoma	Poor	Lung	4.5	3.34	3.34	Y	N	Y	HWI-D00837_132_4	IV
+CGPLLU267_D90	EE88238	0.009467	Lung Cancer	cfDNA	Post-treatment, Day 90	90	55	F	IV	T3NxM1a	Right Upper Lobe of Lung	Squamous Cell Carcinoma	Poor	Lung	3.5	3	3	Y	N	Y	HWI-D00837_132_8	IV
+CGPLLU269_D0	EE88242	0.01101	Lung Cancer	cfDNA	Pre-treatment, Day 0	0	52	F	IV	T1CNxM1C	Right Paratracheal Lesion	Adenocarcinoma	NA	Brain, Liver, Bone, Pleura	5	11.4	11.4	Y	N	Y	HWI-D00837_132_4	IV
+CGPLLU269_D28	EE88240	0.01151	Lung Cancer	cfDNA	Post-treatment, Day 28	28	52	F	IV	T1CNxM1C	Right Paratracheal Lesion	Adenocarcinoma	NA	Brain, Liver, Bone, Pleura	3.5	17.79	17.79	Y	N	Y	HWI-D00837_132_4	IV
+CGPLLU269_D9	EE88241	0.01891	Lung Cancer	cfDNA	Post-treatment, Day 9	9	52	F	IV	T1CNxM1C	Right Paratracheal Lesion	Adenocarcinoma	NA	Brain, Liver, Bone, Pleura	5	8.35	8.35	Y	N	Y	HWI-D00837_132_4	IV
+CGPLLU271_D0	EE88247	0.06508	Lung Cancer	cfDNA	Pre-treatment, Day 0	0	73	M	IV	T1aNxM1	Left Upper Lobe of Lung	Adenocarcinoma	NA	Pleura	5	18.86	18.86	Y	N	Y	HWI-D00837_132_8	IV+M
+CGPLLU271_D104	EE88243	0.002222	Lung Cancer	cfDNA	Post-treatment, Day 104	104	73	M	IV	T1aNxM1	Left Upper Lobe of Lung	Adenocarcinoma	NA	Pleura	4	13.77	13.77	Y	N	Y	HWI-D00837_132_2	IV+M
+CGPLLU271_D20	EE88244	0	Lung Cancer	cfDNA	Post-treatment, Day 20	20	73	M	IV	T1aNxM1	Left Upper Lobe of Lung	Adenocarcinoma	NA	Pleura	3.5	13.46	13.46	Y	N	Y	HWI-D00837_132_4	IV+M
+CGPLLU271_D259	EE88245	0.00495	Lung Cancer	cfDNA	Post-treatment, Day 259	259	73	M	IV	T1aNxM1	Left Upper Lobe of Lung	Adenocarcinoma	NA	Pleura	4	4.7	4.7	Y	N	Y	HWI-D00837_132_5	IV+M
+CGPLLU271_D6	EE88246	0.002608	Lung Cancer	cfDNA	Post-treatment, Day 6	6	73	M	IV	T1aNxM1	Left Upper Lobe of Lung	Adenocarcinoma	NA	Pleura	4.5	13.84	13.84	Y	N	Y	HWI-D00837_132_4	IV+M
+CGPLLU43_D-1	EE88251	0.00684	Lung Cancer	cfDNA	Pre-treatment, Day -1	-1	57	F	IV	T1BN0M0	Right Lower Lobe of Lung	Adenocarcinoma	Moderate	None	4.9	2.17	2.17	Y	N	Y	HWI-D00837_132_5	IV
+CGPLLU43_D27	EE88248	0.005928	Lung Cancer	cfDNA	Post-treatment, Day 27	27	57	F	IV	T1BN0M0	Right Lower Lobe of Lung	Adenocarcinoma	Moderate	None	4	4.12	4.12	Y	N	Y	HWI-D00837_132_5	IV
+CGPLLU43_D6	EE88249	0.00736	Lung Cancer	cfDNA	Post-treatment, Day 6	6	57	F	IV	T1BN0M0	Right Lower Lobe of Lung	Adenocarcinoma	Moderate	None	3.7	3.26	3.26	Y	N	Y	HWI-D00837_132_8	IV
+CGPLLU43_D83	EE88250	0.006293	Lung Cancer	cfDNA	Post-treatment, Day 83	83	57	F	IV	T1BN0M0	Right Lower Lobe of Lung	Adenocarcinoma	Moderate	None	3.7	8.2	8.2	Y	N	Y	HWI-D00837_132_5	IV
+CGPLLU86_D0	EE88255	0.01181	Lung Cancer	cfDNA	Pre-treatment, Day 0	0	55	M	IV	NA	Left Upper Lobe of Lung	Adenocarcinoma	NA	Lung	4	7.9	7.9	Y	N	Y	HISEQ_172_5	IV
+CGPLLU86_D0.5	EE88252	0.005648	Lung Cancer	cfDNA	Post-treatment, Day 0.5	0.5	55	M	IV	NA	Left Upper Lobe of Lung	Adenocarcinoma	NA	Lung	4	7.9	7.9	Y	N	Y	HISEQ_172_3	IV
+CGPLLU86_D17	EE88253	0.00536	Lung Cancer	cfDNA	Post-treatment, Day 17	17	55	M	IV	NA	Left Upper Lobe of Lung	Adenocarcinoma	NA	Lung	4	7.9	7.9	Y	N	Y	HISEQ_172_5	IV
+CGPLLU86_D7	EE88254	0.00333	Lung Cancer	cfDNA	Post-treatment, Day 7	7	55	M	IV	NA	Left Upper Lobe of Lung	Adenocarcinoma	NA	Lung	4	7.9	7.9	Y	N	Y	HISEQ_172_3	IV
+CGPLLU88_D0	EE88258	0.18	Lung Cancer	cfDNA	Pre-treatment, Day 0	0	59	M	IV	NA	Right Middle Lobe of Lung	Adenocarcinoma	NA	None	5	27.66	27.66	Y	N	Y	HISEQ_172_6	IV
+CGPLLU88_D297	EE88256	0.05034	Lung Cancer	cfDNA	Post-treatment, Day 297	297	59	M	IV	NA	Right Middle Lobe of Lung	Adenocarcinoma	NA	None	4	3.04	3.04	Y	N	Y	HISEQ_172_4	IV
+CGPLLU88_D7	EE88257	0.007703	Lung Cancer	cfDNA	Post-treatment, Day 7	7	59	M	IV	NA	Right Middle Lobe of Lung	Adenocarcinoma	NA	None	5	6.49	6.49	Y	N	Y	HISEQ_172_4	IV
+CGPLLU89_D0	EE88261	0.007553	Lung Cancer	cfDNA	Pre-treatment, Day 0	0	54	F	IV	NA	Right Upper Lobe of Lung	Adenocarcinoma	NA	Brain, Bone, Lung	8	8.43	8.43	Y	N	Y	HISEQ_172_2	IV
+CGPLLU89_D22	EE88259	0.01051	Lung Cancer	cfDNA	Post-treatment, Day 22	22	54	F	IV	NA	Right Upper Lobe of Lung	Adenocarcinoma	NA	Brain, Bone, Lung	8	8.43	8.43	Y	N	Y	HISEQ_172_5	IV
+CGPLLU89_D7	EE88260	0.006867	Lung Cancer	cfDNA	Post-treatment, Day 7	7	54	F	IV	NA	Right Upper Lobe of Lung	Adenocarcinoma	NA	Brain, Bone, Lung	8	8.43	8.43	Y	N	Y	HISEQ_172_3	IV
+CGPLOV11	EE88262	0.03868	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	51	F	IV	T3cN0M1	Right Ovary	Endometrioid Adenoarcinoma	Moderate	Omentum	3.4	17.35	17.35	Y	Y	Y	HWI-D00792_378_8	IV+M
+CGPLOV12	EE88263	0.004943	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	45	F	I	T1aN0MX	Ovary	Endometrioid Adenoarcinoma	NA	None	3.2	12.44	12.44	Y	N	Y	HWI-D00792_378_5	I
+CGPLOV13	EE88264	0.004813	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	62	F	IV	T1bN0M1	Right Ovary	Endometrioid Adenoarcinoma	Poor	Omentum	3.8	27	27	Y	Y	Y	HWI-D00792_378_2	IV+M
+CGPLOV15	EE88265	0.0533	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	54	F	III	T3N1M0	Ovary	Adenocarcinoma	Poor	None	5	4.77	4.77	Y	Y	Y	HISEQ_172_2	III
+CGPLOV16	EE88266	0.02651	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	40	F	III	T3aN0M0	Ovary	Serous Adenocarcinoma	Moderate	None	4.5	27.28	27.28	Y	N	Y	HWI-D00792_378_8	III
+CGPLOV19	EE88267	0.3234	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	52	F	II	T2aN0M0	Ovary	Endometrioid Adenoarcinoma	Moderate	None	5	23.46	23.46	Y	Y	Y	HISEQ_172_2	II
+CGPLOV20	EE88268	0.01575	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	52	F	II	T2aN0M0	Left Ovary	Endometrioid Adenoarcinoma	Poor	None	4.2	5.67	5.67	Y	Y	Y	HISEQ_172_5	II
+CGPLOV21	EE88269	0.0327	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	51	M	IV	TanyN1M1	Ovary	Serous Adenocarcinoma	Poor	Omentum, Appendix	4.3	56.32	56.32	Y	Y	Y	HWI-D00792_378_8	IV+M
+CGPLOV22	EE88270	0.008314	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	64	F	III	T1cNXMX	Left Ovary	Serous Adenocarcinoma	Well	None	4.6	17.42	17.42	Y	Y	Y	HWI-D00792_378_5	III
+CGPLOV23	EE88271	0.01276	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	47	F	I	T1aN0M0	Ovary	Serous Adenocarcinoma	Poor	None	5	26.73	26.73	Y	N	Y	HWI-D00792_378_5	I
+CGPLOV24	EE88272	0.004748	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	14	F	I	T1aN0M0	Ovary	Germ Cell Tumor	Poor	None	4.2	10.71	10.71	Y	N	Y	HWI-D00837_112_5	I
+CGPLOV25	EE88273	0.00614	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	18	F	I	T1aN0M0	Ovary	Germ Cell Tumor	Poor	None	4.8	6.78	6.78	Y	N	Y	HWI-D00837_112_5	I
+CGPLOV26	EE88274	0.009901	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	35	F	I	T1aN0M0	Ovary	Germ Cell Tumor	Poor	None	4.5	27.9	27.9	Y	N	Y	HWI-D00792_378_7	I
+CGPLOV28	EE88275	0.00255	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	63	F	I	T1aNxM0	Right Ovary	Serous Carcinoma	NA	None	3.2	10.74	10.74	Y	N	Y	HWI-D00792_378_2	I
+CGPLOV31	EE88276	0.005628	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	45	F	III	T3aNxM0	Right Ovary	Clear Cell adenocarcinoma	NA	None	4	14.45	14.45	Y	N	Y	HWI-D00792_378_5	III
+CGPLOV32	EE88277	0.007698	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	53	F	I	T1aNxM0	Left Ovary	Mucinous Cystadenoma	NA	None	3.2	27.36	27.36	Y	N	Y	HWI-D00792_379_1	I
+CGPLOV37	EE88278	0.009811	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	40	F	I	T1cN0M0	Ovary	Serous Carcinoma	NA	None	3.2	46.88	46.88	Y	N	Y	HWI-D00792_378_1	I
+CGPLOV38	EE88279	0.1122	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	46	F	I	T1cN0M0	Ovary	Serous Carcinoma	NA	None	2.4	34.29	34.29	Y	N	Y	HWI-D00792_378_4	I
+CGPLOV40	EE88280	0.01447	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	53	F	IV	T3N0M1	Ovary	Serous Carcinoma	NA	Omentum, Uterus, Appendix	1.6	193.6	156.25	Y	N	Y	HWI-D00792_378_3	IV+M
+CGPLOV41	EE88281	0.008727	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	57	F	IV	T3N0M1	Ovary	Serous Carcinoma	NA	Omentum, Uterus, Cervix	4.4	10.03	10.03	Y	N	Y	HWI-D00792_378_4	IV+M
+CGPLOV42	EE88282	0.02061	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	52	F	I	T3aN0M0	Ovary	Serous Carcinoma	NA	None	4.2	49.51	49.51	Y	N	Y	HWI-D00792_378_5	I
+CGPLOV43	EE88283	0.003208	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	30	F	I	T1aN0M0	Ovary	Mucinous Cystadenocarcinoma	NA	None	4.4	9.09	9.09	Y	N	Y	HISEQ_177_4	I
+CGPLOV44	EE88284	0.01401	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	69	F	I	T1aN0M0	Ovary	Mucinous Adenocarcinoma	NA	None	4.5	8.79	8.79	Y	N	Y	HWI-D00792_378_3	I
+CGPLOV46	EE88285	0.008236	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	58	F	I	T1bN0M0	Ovary	Serous Carcinoma	NA	None	4.1	8.97	8.97	Y	N	Y	HWI-D00792_379_1	I
+CGPLOV47	EE88286	0.003709	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	41	F	I	T1aN0M0	Ovary	Serous Cystadenoma	NA	None	4.5	19.35	19.35	Y	N	Y	HWI-D00792_378_7	I
+CGPLOV48	EE88287	0.006806	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	52	F	I	T1bN0M0	Ovary	Serous Carcinoma	NA	None	3.5	22.8	22.8	Y	N	Y	HWI-D00792_378_2	I
+CGPLOV49	EE88288	0.03197	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	68	F	III	T3bN0M0	Ovary	Serous Carcinoma	NA	None	4.2	16.48	16.48	Y	N	Y	HWI-D00792_378_7	III
+CGPLOV50	EE88289	0.0112	Ovarian Cancer	cfDNA	Preoperative treatment naive	0	30	F	III	T3cN0M0	Ovary	Serous Carcinoma	NA	None	4.5	8.89	8.89	Y	N	Y	HWI-D00792_379_1	III
+CGPLPA112	EE88290	0.002842	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	58	M	II	NA	Intra Pancreatic Bile Duct	NA	NA	None	3.5	18.52	18.52	Y	N	N	HWI-D00837_130_3	II
+CGPLPA113	EE87892	0.01062	Duodenal Cancer	cfDNA	Preoperative treatment naive	0	71	M	I	NA	Intra Pancreatic Bile Duct	NA	NA	None	4.8	8.24	8.24	Y	N	N	HWI-D00837_130_3	I
+CGPLPA114	EE87786	0.008257	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	NA	F	II	NA	Intra Pancreatic Bile Duct	NA	NA	None	4.8	26.43	26.43	Y	N	N	HWI-D00837_130_5	II
+CGPLPA115	EE87787	0.06878	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	NA	M	IV	NA	Intra Hepatic Bile Duct	NA	NA	NA	5	31.41	31.41	Y	N	N	HWI-D00837_130_5	IV
+CGPLPA117	EE87788	0.007218	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	NA	M	II	NA	Intra Pancreatic Bile Duct	NA	NA	None	3.4	2.29	2.29	Y	N	N	HWI-D00837_130_3	II
+CGPLPA118	EE87789	0.002729	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	68	F	I	NA	Bile Duct	Intra-Ampullary Bile Duct	NA	None	3.8	9.93	9.93	Y	N	Y	HWI-D00133R_160_4	I
+CGPLPA122	EE87790	0.01551	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	62	F	II	NA	Bile Duct	Intra-Pancreatic Bile Duct	NA	None	3.8	66.54	32.89	Y	N	Y	HWI-D00133R_160_4	II
+CGPLPA124	EE87791	0.006521	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	83	F	II	NA	Bile Duct	Intra-Ampullary Bile Duct	moderate	None	4.6	29.24	27.17	Y	N	Y	HWI-D00133R_160_4	II
+CGPLPA125	EE87792	0.003865	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	58	M	II	NA	Bile Duct	Intra-Pancreatic Bile Duct	poor	None	2.7	8.31	8.31	Y	N	N	HWI-D00133R_160_5	II
+CGPLPA126	EE87793	0.01044	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	60	M	II	NA	Bile Duct	Intra-Pancreatic Bile Duct	NA	None	4.3	80.56	29.07	Y	N	Y	HWI-D00133R_160_3	II
+CGPLPA127	EE87794	0.005987	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	71	F	IV	NA	Bile Duct	Extra-Pancreatic Bile Duct	NA	NA	3	20.6	20.6	Y	N	N	HWI-D00792_450_7	IV
+CGPLPA128	EE87795	0.003565	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	67	M	II	NA	Bile Duct	Intra-Pancreatic Bile Duct	NA	None	3.9	5.91	5.91	Y	N	Y	HWI-D00133R_160_3	II
+CGPLPA129	EE87796	0.01155	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	56	F	II	NA	Bile Duct	Intra-Pancreatic Bile Duct	NA	None	4.6	27.07	27.07	Y	N	Y	HWI-D00133R_160_3	II
+CGPLPA130	EE87797	0.008183	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	82	F	II	NA	Bile Duct	Intra-Ampullary Bile Duct	well	None	4	4.34	4.34	Y	N	Y	HWI-D00133R_160_3	II
+CGPLPA131	EE87798	0.009653	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	71	M	II	NA	Bile Duct	Intra-Pancreatic Bile Duct	NA	None	3.9	68.95	32.05	Y	N	Y	HWI-D00133R_160_3	II
+CGPLPA134	EE87799	0.00632	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	68	M	II	NA	Bile Duct	Intra-Pancreatic Bile Duct	NA	None	4.1	58.08	30.49	Y	N	Y	HWI-D00133R_160_3	II
+CGPLPA135	EE87800	0.005426	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	67	F	I	NA	Bile Duct	Intra-Pancreatic Bile Duct	NA	NA	3.9	4.22	4.22	Y	N	N	HWI-D00133R_160_5	I
+CGPLPA136	EE87801	0.007828	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	69	F	II	NA	Bile Duct	Intra-Pancreatic Bile Duct	NA	None	4.1	20.23	20.23	Y	N	Y	HWI-D00133R_160_3	II
+CGPLPA137	EE87802	0.003445	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	NA	M	II	NA	Bile Duct	NA	NA	NA	4	5.75	5.75	Y	N	N	HISEQ_180_7	II
+CGPLPA139	EE87803	0.007893	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	NA	M	IV	NA	Bile Duct	NA	NA	NA	4	14.89	14.89	Y	N	N	HISEQ_180_8	IV
+CGPLPA14	EE88291	0.01708	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	68	M	II	NA	Pancreas	Ductal Adenocarcinoma	Poor	None	4	1.3	1.3	Y	N	N	HWI-D00837_130_3	II
+CGPLPA140	EE87804	0.01115	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	52	M	II	NA	Extra Hepatic Bile Duct	Intra-Pancreatic Bile Duct	Poor	None	4.7	29.34	26.6	Y	N	Y	HISEQ_181_5	II
+CGPLPA141	EE87805	0.01343	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	68	F	II	NA	Extra Hepatic Bile Duct	Intra-Pancreatic Bile Duct	Moderate	None	2.8	53.67	44.64	Y	N	N	HISEQ_180_6	II
+CGPLPA15	EE88292	0.009932	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	70	F	II	NA	Pancreas	Ductal Adenocarcinoma	Well	Lymph Node	4	1.92	1.92	Y	N	N	HWI-D00837_130_2	II
+CGPLPA155	EE87806	0.004691	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	NA	F	II	NA	NA	NA	NA	NA	4	25.72	25.72	Y	N	N	HWI-D00792_450_7	II
+CGPLPA156	EE88293	0.004195	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	73	F	II	NA	Pancreas	Ductal Adenocarcinoma	Poor	Lymph Node	4.5	7.54	7.54	Y	N	N	HWI-D00837_130_3	II
+CGPLPA165	EE87807	0.007235	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	42	M	I	NA	Bile Duct	Intra-Pancreatic Bile Duct with Medullary Features	well	None	3.9	10.48	10.48	Y	N	N	HISEQ_180_8	I
+CGPLPA168	EE88325	0.0133	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	58	M	II	NA	Bile Duct	Extra-Pancreatic Bile Duct	NA	NA	3.6	139.12	34.72	Y	N	N	HWI-D00837_130_5	II
+CGPLPA17	EE88294	0.03749	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	65	M	II	NA	Pancreas	Ductal Adenocarcinoma	Well	Lymph Node	4	13.08	13.08	Y	N	N	HWI-D00837_130_2	II
+CGPLPA184	EE87809	0.008296	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	75	F	II	NA	Bile Duct	Intra-Pancreatic Bile Duct	NA	None	NA	NA	NA	Y	N	N	HWI-D00792_450_7	II
+CGPLPA187	EE87810	0.006537	Bile Duct Cancer	cfDNA	Preoperative treatment naive	0	67	F	II	NA	Bile Duct	Intra-Pancreatic Bile Duct	NA	None	NA	NA	NA	Y	N	N	HISEQ_180_7	II
+CGPLPA23	EE88295	0.02235	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	58	F	II	NA	Pancreas	Ductal Adenocarcinoma	Moderate	Lymph Node	4	16.62	16.62	Y	N	N	HWI-D00837_130_5	II
+CGPLPA25	EE88296	0.007739	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	69	F	II	NA	Pancreas	Ductal Adenocarcinoma	Poor	Lymph Node	4	8.71	8.71	Y	N	N	HWI-D00837_130_2	II
+CGPLPA26	EE88297	0.005019	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	64	M	II	NA	Pancreas	Ductal Adenocarcinoma	Well	Lymph Node	4	6.97	6.97	Y	N	N	HWI-D00837_130_2	II
+CGPLPA28	EE88298	0.01235	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	79	F	II	NA	Pancreas	Ductal Adenocarcinoma	Well	Lymph Node	4	18.13	18.13	Y	N	N	HWI-D00837_130_5	II
+CGPLPA33	EE88299	0.01635	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	67	F	II	NA	Pancreas	Ductal Adenocarcinoma	Well	Lymph Node	4	1.8	1.8	Y	N	N	HWI-D00837_130_2	II
+CGPLPA34	EE88300	0.01077	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	73	M	II	NA	Pancreas	Ductal Adenocarcinoma	Well	Lymph Node	4	3.36	3.36	Y	N	N	HWI-D00837_130_2	II
+CGPLPA37	EE88301	0.01356	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	67	F	II	NA	Pancreas	Ductal Adenocarcinoma	NA	Lymph Node	4	21.83	21.83	Y	N	N	HWI-D00837_130_8	II
+CGPLPA38	EE88302	0.0184	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	65	M	II	NA	Pancreas	Ductal Adenocarcinoma	Moderate	None	4	5.29	5.29	Y	N	N	HWI-D00837_130_1	II
+CGPLPA39	EE88303	0.01412	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	67	F	II	NA	Pancreas	Ductal Adenocarcinoma	Well	Lymph Node	4	11.73	11.73	Y	N	N	HWI-D00837_130_1	II
+CGPLPA40	EE88304	0.01681	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	64	M	II	NA	Pancreas	Ductal Adenocarcinoma	Well	Lymph Node	4	4.78	4.78	Y	N	N	HWI-D00837_130_4	II
+CGPLPA42	EE88305	0.008395	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	73	M	II	NA	Pancreas	Ductal Adenocarcinoma	Moderate	Lymph Node	4	3.41	3.41	Y	N	N	HWI-D00837_130_4	II
+CGPLPA46	EE88306	0.04122	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	59	F	II	NA	Pancreas	Ductal Adenocarcinoma	Poor	Lymph Node	4	0.74	0.74	Y	N	N	HWI-D00837_130_4	II
+CGPLPA47	EE88307	0.07223	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	67	M	II	NA	Pancreas	Ductal Adenocarcinoma	Well	Lymph Node	4	6.01	6.01	Y	N	N	HISEQ_199_8	II
+CGPLPA48	EE88308	0.007369	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	72	F	I	NA	Pancreas	Ductal Adenocarcinoma	Well	None	NA	NA	NA	Y	N	N	HISEQ_199_8	I
+CGPLPA52	EE88309	0.004774	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	63	M	II	NA	Pancreas	Ductal Adenocarcinoma	Moderate	None	2.5	9.86	9.86	Y	N	N	HWI-D00837_130_6	II
+CGPLPA53	EE88310	0	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	46	M	I	NA	Pancreas	Ductal Adenocarcinoma	Poor	Lymph Node	3	14.48	14.48	Y	N	N	HWI-D00837_130_4	I
+CGPLPA58	EE88311	0.003642	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	74	F	II	NA	Pancreas	Ductal Adenocarcinoma	NA	None	3	6.87	6.87	Y	N	N	HWI-D00837_130_4	II
+CGPLPA59	EE88312	0.01086	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	59	F	II	NA	Pancreas	Ductal Adenocarcinoma or Adenoma	Well	Lymph Node	NA	NA	NA	Y	N	N	HWI-D00837_130_8	II
+CGPLPA67	EE88313	0.00851	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	55	M	III	NA	Pancreas	Ductal Adenocarcinoma	Well	Lymph Node	3.2	9.72	9.72	Y	N	N	HWI-D00837_130_2	III
+CGPLPA69	EE88314	0.002905	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	70	M	I	NA	Pancreas	Ductal Adenocarcinoma	Well	None	2	1.72	1.72	Y	N	N	HWI-D00837_130_1	I
+CGPLPA71	EE88315	0.005372	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	64	M	II	NA	Pancreas	Ductal Adenocarcinoma	Well	Lymph Node	2.2	39.07	39.07	Y	N	N	HISEQ_199_8	II
+CGPLPA74	EE88316	0.003909	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	71	F	II	NA	Pancreas	Ductal Adenocarcinoma	Moderate	Lymph Node	2.5	4.99	4.99	Y	N	N	HISEQ_199_8	II
+CGPLPA76	EE88317	0.008017	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	69	M	II	NA	Pancreas	Ductal Adenocarcinoma	Poor	None	2.5	23.19	23.19	Y	N	N	HWI-D00837_130_4	II
+CGPLPA85	EE88318	0.002412	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	77	F	II	NA	Pancreas	Ductal Adenocarcinoma	Poor	Lymph Node	3	152.46	41.67	Y	N	N	HWI-D00837_130_5	II
+CGPLPA86	EE88319	0.00597	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	66	M	II	NA	Pancreas	Ductal Adenocarcinoma	Moderate	Lymph Node	2.5	11.02	11.02	Y	N	N	HWI-D00837_130_4	II
+CGPLPA92	EE88320	0.002001	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	72	M	II	NA	Pancreas	Ductal Adenocarcinoma	NA	Lymph Node	2	5.34	5.34	Y	N	N	HISEQ_199_8	II
+CGPLPA93	EE88321	0.01558	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	48	M	II	NA	Pancreas	Ductal Adenocarcinoma	Poor	None	3	96.28	41.67	Y	N	N	HISEQ_199_8	II
+CGPLPA94	EE88322	0.00764	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	72	F	II	NA	Pancreas	Ductal Adenocarcinoma	NA	Lymph Node	3	29.66	29.66	Y	N	N	HISEQ_199_8	II
+CGPLPA95	EE88323	0.01089	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	64	F	II	NA	Pancreas	Ductal Adenocarcinoma	Well	Lymph Node	NA	NA	NA	Y	N	N	HWI-D00837_130_1	II
+CGPLPA95	EE88324	0.009625	Pancreatic Cancer	cfDNA	Preoperative treatment naive	0	64	F	II	NA	Pancreas	Ductal Adenocarcinoma	Well	Lymph Node	NA	NA	NA	Y	N	N	HWI-D00792_441_5	II
+CGST102	EE87893	0.01096	Gastric cancer	cfDNA	Preoperative treatment naive	0	76	F	II	T3N0M0	Stomach	Tubular Adenocarcinoma	Moderate	None	4.1	8.03	8.03	Y	N	Y	HWI-D00837_112_5	II
+CGST11	EE87894	0.004911	Gastric cancer	cfDNA	Preoperative treatment naive	0	49	M	IV	TXNXM1	Stomach	Mixed Carcinoma	Moderate	None	3.8	3.57	3.57	Y	N	N	HWI-D00792_443_6	IV+M
+CGST110	EE87895	0.003732	Gastric cancer	cfDNA	Preoperative treatment naive	0	77	M	III	T4AN3aM0	Stomach	Tubular Adenocarcinoma	Moderate	None	3.8	5	5	Y	N	Y	HISEQ_177_2	III
+CGST114	EE87896	0.005887	Gastric cancer	cfDNA	Preoperative treatment naive	0	65	M	III	T4AN1M0	Stomach	Tubular Adenocarcinoma	Poor	None	4.4	10.35	10.35	Y	N	Y	HWI-D00837_112_5	III
+CGST13	EE87897	0.007212	Gastric cancer	cfDNA	Preoperative treatment naive	0	72	F	II	T1AN2M0	Stomach	Signet Ring Cell Carcinoma	Poor	None	4.4	24.33	24.33	Y	N	Y	HISEQ_177_1	II
+CGST131	EE87898	0.01294	Gastric cancer	cfDNA	Preoperative treatment naive	0	63	M	III	T2N3aM0	Stomach	Signet ring cell carcinoma	Poor	None	4	4.28	4.28	Y	N	N	HWI-D00837_112_5	III
+CGST141	EE87899	0.002382	Gastric cancer	cfDNA	Preoperative treatment naive	0	33	F	III	T3N2M0	Stomach	Signet Ring Cell Carcinoma	Poor	None	4.4	10.84	10.84	Y	N	Y	HWI-D00837_112_5	III
+CGST16	EE87900	0.009573	Gastric cancer	cfDNA	Preoperative treatment naive	0	78	M	III	T4AN3aM0	Stomach	Tubular Adenocarcinoma	Poor	None	4	40.69	40.69	Y	N	Y	HWI-D00792_443_6	III
+CGST18	EE87901	0.012	Gastric cancer	cfDNA	Preoperative treatment naive	0	56	M	II	T3N0M0	Stomach	Mucinous Adenocarcinoma	Well	None	4.3	9.78	9.78	Y	N	Y	HISEQ_177_4	II
+CGST21	EE87902	0.03832	Gastric cancer	cfDNA	Preoperative treatment naive	0	39	M	II	T2N1 (mi)M0	Stomach	Papillary Adenocarcinoma	Moderate	None	4	0.83	0.83	Y	N	N	HWI-D00837_112_8	II
+CGST26	EE87903	0.004725	Gastric cancer	cfDNA	Preoperative treatment naive	0	51	M	IV	TXNXM1	Stomach	Signet ring cell carcinoma	Poor	None	3.5	5.56	5.56	Y	N	N	HWI-D00837_112_6	IV+M
+CGST28	EE87904	0.01861	Gastric cancer	cfDNA	Preoperative treatment naive	0	55	M	X	TXNXMx	Stomach	Undifferentiated Carcinoma	Poor	None	4	5.86	5.86	Y	N	Y	HWI-D00837_112_6	X
+CGST30	EE87905	0.009972	Gastric cancer	cfDNA	Preoperative treatment naive	0	64	F	III	T3N2M0	Stomach	Signet Ring Cell Carcinoma	Poor	None	3	4.22	4.22	Y	N	Y	HWI-D00837_112_6	III
+CGST32	EE87906	0.03056	Gastric cancer	cfDNA	Preoperative treatment naive	0	67	M	II	T3N1M0	Stomach	Tubular Adenocarcinoma	Moderate	None	4	11.49	11.49	Y	N	Y	HWI-D00837_112_6	II
+CGST33	EE87907	0.0302	Gastric cancer	cfDNA	Preoperative treatment naive	0	61	M	I	T2N0M0	Stomach	Tubular Adenocarcinoma	Moderate	None	3.5	5.71	5.71	Y	N	Y	HWI-D00837_112_6	I
+CGST38	EE87908	0.01407	Gastric cancer	cfDNA	Preoperative treatment naive	0	71	F	X	T0N0M0	Stomach	Mucinous adenocarcinoma	NA	None	4	NA	NA	Y	N	N	HWI-D00837_112_7	NA
+CGST39	EE87909	0.008546	Gastric cancer	cfDNA	Preoperative treatment naive	0	51	M	IV	TXNXM1	Stomach	Signet Ring Cell Carcinoma	Poor	None	3.5	20.69	20.69	Y	N	Y	HWI-D00837_112_7	IV+M
+CGST41	EE87910	0.0289	Gastric cancer	cfDNA	Preoperative treatment naive	0	66	F	IV	TXNXM1	Stomach	Signet Ring Cell Carcinoma	Poor	None	3.5	7.83	7.83	Y	N	Y	HWI-D00837_112_7	IV+M
+CGST45	EE87911	0.009518	Gastric cancer	cfDNA	Preoperative treatment naive	0	41	F	II	T3N0M0	Stomach	Signet Ring Cell Carcinoma	Poor	None	3.8	7.14	7.14	Y	N	Y	HWI-D00837_112_7	II
+CGST47	EE87912	0.009015	Gastric cancer	cfDNA	Preoperative treatment naive	0	74	F	I	T1AN0M0	Stomach	Tubular Adenocarcinoma	Moderate	None	4	4.55	4.55	Y	N	Y	HISEQ_177_2	I
+CGST48	EE87913	0.04404	Gastric cancer	cfDNA	Preoperative treatment naive	0	62	M	IV	TXNXM1	Stomach	Tubular Adenocarcinoma	Poor	None	4.5	8.79	8.79	Y	N	Y	HWI-D00837_112_7	IV+M
+CGST53	EE87914	0.03708	Gastric cancer	cfDNA	Preoperative treatment naive	0	70	M	X	T0N0M0	Stomach	NA	NA	None	3.8	15.82	15.82	Y	N	N	HWI-D00837_112_7	NA
+CGST58	EE87915	0.01282	Gastric cancer	cfDNA	Preoperative treatment naive	0	58	M	III	T4AN3bM0	Stomach	Signet Ring Cell Carcinoma	Poor	None	3.8	19.81	19.81	Y	N	Y	HISEQ_177_2	III
+CGST67	EE87916	0.01837	Gastric cancer	cfDNA	Preoperative treatment naive	0	69	M	I	T1BN0M0	Stomach	Tubular adenocarcinoma	Moderate	None	3	23.01	23.01	Y	N	N	HISEQ_177_2	I
+CGST77	EE87917	0.01369	Gastric cancer	cfDNA	Preoperative treatment naive	0	70	M	IV	TXNXM1	Stomach	Tubular adenocarcinoma	Moderate	None	4.5	15.09	15.09	Y	N	N	HISEQ_177_1	IV+M
+CGST80	EE87918	0.01824	Gastric cancer	cfDNA	Preoperative treatment naive	0	58	M	III	T3N3aM0	Stomach	Mucinous Adenocarcinoma	Poor	None	4.5	8.56	8.56	Y	N	Y	HISEQ_177_1	III
+CGST81	EE87919	0.01283	Gastric cancer	cfDNA	Preoperative treatment naive	0	64	F	I	T2N0Mx	Stomach	Signet Ring Cell Carcinoma	Poor	None	3.5	37.32	37.32	Y	N	Y	HWI-D00837_112_5	I

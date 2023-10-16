@@ -10,11 +10,10 @@ library(NMF)
 library(tidyverse)
 
 ######### Metadata #########
-samplemap <- read_tsv("C:/Work/Radiooncology/GCbias_corrected/samplemap.tsv")
+samplemap <- read_tsv("results/samplemap.tsv")
 samplemap$group <-factor(samplemap$group, levels=c("Healthy", "SCCHN", "OMD", "PMD"))
 
 samplemap$treatment <-factor(samplemap$treatment, levels=c("BL", "T1", "T2", "F1", "F2", "F3", "P1"))
-
 
 ########## Isolated DNA ############
 p <- ggplot() +
@@ -44,7 +43,6 @@ p <- ggplot(data=samplemap[samplemap$dropout == "no",],
   stat_pvalue_manual(pwise, label = "p.signif", y.position = 13.5, step.increase = 0.04) +
   ylab("Concentration ng/μl")
 p
-
 
 anov <- compare_means(concentration ~ group,
                       data = samplemap[samplemap$dropout == "no" & samplemap$day=="0",],
@@ -77,7 +75,7 @@ p
 
 ################################################################################
 ######### Tumor fraction data #########
-tf <- read_tsv("C:/Work/Radiooncology/GCbias_corrected/tf_ichorcna.tsv")
+tf <- read_tsv("results/tf_ichorcna.tsv")
 
 #prep for the size-selection analysis
 tflong <- melt(tf, 
@@ -224,42 +222,9 @@ ggplot(tf[tf$dropout=="no" & tf$group=="PMD",], aes(x=`death after sampling`, y=
 cor(tf$tumor_fraction[tf$dropout=="no" & tf$group=="PMD"], tf$`death after sampling`[tf$dropout=="no" & tf$group=="PMD"])
 
 ################################################################################
-######## length data with Cristiano #########
-count <- read_tsv("C:/Work/Radiooncology/GCbias_corrected/length/uniqcounts_100_220_with_cristiano.tsv")
-count[is.na(count)] <- 0
-ratio <- count %>% mutate_at(vars(-length), funs(./sum(.))) 
-
-ratiolong <- melt(ratio, 
-                  id.vars=c("length"),
-                  variable.name="sample",
-                  value.name="ratio")
-
-cristianomap <- read_tsv("C:/Work/Radiooncology/GCbias_corrected/samplemap_with_cristiano.tsv")
-ratiolong <- merge(x = ratiolong, y = cristianomap, by = "sample", all.x = TRUE)
-
-p<-ggplot(ratiolong[ratiolong$dropout=="no" & ratiolong$group=="Healthy",]
-          , aes(x=length, y=ratio, group=sample)) +
-  geom_line(aes(color=project)) + xlim(100,220) + theme_classic() +
-  scale_color_manual(values = c("cyan", "grey"))
-p
-
-rat150 <- as.data.frame(colSums(ratio[ratio$length<=150 & ratio$length>=100,][,-1]))
-colnames(rat150) <- "ratio150"
-rat150$sample <- rownames(rat150)
-rat150samp <- merge(x = rat150, y = cristianomap, by = "sample", all.x = TRUE)
-
-p <- ggplot(rat150samp[rat150samp$dropout== "no",], aes(x=group, y=ratio150, fill=group)) + 
-  geom_boxplot() + 
-  scale_fill_manual(values = c("pink", "lightblue", "tomato", "purple", "grey",
-                               "blue", "yellow", "red", "green")) +
-  theme_classic() + facet_grid(.~project, scales = "free_x")
-p
-
-
-################################################################################
 ######## Tumor fraction data with Cristiano #########
 
-cristiano_samplemap <- read_tsv("C:/Work/Cristiano/samplemap.tsv")
+cristiano_samplemap <- read_tsv("data/Cristiano_samplemap.tsv")
 unique(cristiano_samplemap$`Patient Type`)
 cristiano_samplemap$Stage[is.na(cristiano_samplemap$Stage)] <-"NA"
 
@@ -311,7 +276,7 @@ View(cristiano_samplemap[cristiano_samplemap$`Sample Type`== "cfDNA" &
 + scale_y_continuous(trans = 'log10')
 ################################################################################
 ######## length data #########
-count <- read_tsv("C:/Work/Radiooncology/GCbias_corrected/length/uniqcounts_100_450.tsv")
+count <- read_tsv("results/uniqcounts_100_450.tsv")
 count[is.na(count)] <- 0
 ratio <- count %>% mutate_at(vars(-length), funs(./sum(.))) 
 
@@ -496,6 +461,19 @@ ratio <- ratio[, samplemap$sample[samplemap$dropout=="no"]]
 # Take only baseline
 #ratio <- ratio[, samplemap$sample[samplemap$dropout=="no" & samplemap$day=="0" & samplemap$group!="Healthy"]]
 
+# Deciding on the number of factors
+
+ratiosvd <- svd(ratio)
+ratiosvd$d
+
+estim.r <- nmf(ratio, 2:7, nrun=10, seed=123)
+
+opar <- par(mfrow=c(3,3))
+consensusmap(estim.r, annCol=NA, labCol=NA, labRow=NA)
+par(opar)
+plot(estim.r)
+
+
 ## Running NMF
 
 res <- nmf(ratio, 4, nrun=100, seed=123)
@@ -659,18 +637,6 @@ p
 #  theme_classic() + theme(axis.text.x = element_text(angle = 45, hjust = 1))
 #p
 
-#Justifying using 4 factors
-
-ratiosvd <- svd(ratio)
-ratiosvd$d
-
-estim.r <- nmf(ratio, 2:7, nrun=10, seed=123)
-
-opar <- par(mfrow=c(3,3))
-consensusmap(estim.r, annCol=NA, labCol=NA, labRow=NA)
-par(opar)
-plot(estim.r)
-
 
 ### Plotting the factors with the cfdna length distributions
 signlong$amplitude_scaled <- scale(signlong$amplitude)
@@ -829,11 +795,11 @@ ggplot(tf_sig1[tf_sig1$dropout=="no",], aes(x=tumor_fraction, y=sig1)) +
 ################################################################################
 ####### Fragment length in amplified region 8q ########
 
-ampcount <- read_tsv("C:/Work/Radiooncology/GCbias_corrected/length/uniqcounts_all.tsv")
+ampcount <- read_tsv("results/uniqcounts_all.tsv")
 
 ampcount[is.na(ampcount)] <- 0
 ampratio <- ampcount %>% mutate_at(vars(-length), funs(./sum(.))) 
-ampsamplemap <- read_tsv("C:/Work/Radiooncology/GCbias_corrected/samplemap_8q.tsv")
+ampsamplemap <- read_tsv("data/samplemap_8q.tsv")
 
 ampratiolong <- melt(ampratio, 
                   id.vars=c("length"),
@@ -889,7 +855,7 @@ ggplot(rat8q_df[rat8q_df$dropout=="no" & rat8q_df$length>99 & rat8q_df$length<40
 ################################################################################
 ####### Differential chromatin accessibility using LIQUORICE #######
 
-celltype <- read_tsv("C:/Work/Radiooncology/GCbias_corrected/celltype_signatures_pruned.tsv")
+celltype <- read_tsv("results/celltype_signatures_pruned.tsv")
 ct_wide <- spread(celltype, key = celltype, value = signature)
 ct_wide[, c(2:9)] <- scale(ct_wide[, c(2:9)])
 celltype$signature <- scale(celltype$signature)
@@ -1071,7 +1037,7 @@ ggplot(omd9, aes(x=days, y=prostate_signature, group = 1)) +
 
 ################################################################################
 ####### OMD9 PSA values ###########
-psa <- read_tsv("C:/Work/Radiooncology/GCbias_corrected/OMD9_PSA.tsv")
+psa <- read_tsv("results/OMD9_PSA.tsv")
 psa$days <- psa$months*30
 psa$months <- as.factor(psa$months)
 p <- ggplot() +
@@ -1141,9 +1107,9 @@ q<- ggplot(df, aes(x=day, y=HPV)) +
   theme_classic()
 q
 
-
+########################################################
 ###### Viral read counts ######
-viral_read <- read_tsv("C:/Work/Radiooncology/GCbias_corrected/viral_reads.tsv")
+viral_read <- read_tsv("results/viral_reads.tsv")
 viral_read <- merge(x = viral_read, y = samplemap, by = "sample", all.x = TRUE)
 greens <- c("#9CCC65", "#CDDC39", "#388E3C", "#4CAF50", "#00BFA5", "#2E7D32", "#689F38")
 hpvpatients <- c("HN1", "HN2", "HN3", "HN4")
@@ -1161,7 +1127,7 @@ p
 ################################################################################
 ###### Viral fragment lengths ######
 
-viral <- read_tsv("C:/Work/Radiooncology/GCbias_corrected/viral_length.tsv",
+viral <- read_tsv("results/viral_length.tsv",
                   col_names="viral")
 p <- ggplot(viral, aes(x=viral)) + 
   geom_density() + theme_classic()
@@ -1197,7 +1163,7 @@ ggplotly(p)
 ################################################################################
 ###### Viral subtypes ######
 
-subtypes <- read_tsv("C:/Work/Radiooncology/GCbias_corrected/virus_genomes.tsv")
+subtypes <- read_tsv("results/virus_genomes.tsv")
 subtypes$match_rate <- 1-subtypes$substitution_rate
 
 p <- ggplot(subtypes, aes(x=sample, y=`mapped length`)) + 
@@ -1220,10 +1186,11 @@ p <- ggplot(subtypes, aes(x=sample, y=match_rate)) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   facet_grid(~genome) + scale_y_continuous(labels = scales::percent)
 p
+
 ################################################################################
 ###### Swimmer plot #######
 library(swimplot)
-cohort <- read_tsv("C:/Work/Radiooncology/GCbias_corrected/cohort_data.tsv")
+cohort <- read_tsv("data/cohort_data.tsv")
 #Converting dates (character) to days (01.01.1970-based)
 cohort[,3:14] <- sapply(cohort[,3:14], function(x) as.Date(x, "%d.%m.%Y"))
 #Setting the earliest day to day 0 for each patient
@@ -1281,6 +1248,7 @@ AE_plot
 
 
 colnames(cohort)
+
 ##Creating response dataframe
 resp_df <- cohort[colnames(cohort) %in% (c("patient", "PR_start", 
                                                 "PR_end", "CR_start",
@@ -1308,32 +1276,6 @@ resp_plot
 
 swimmer_arrows(df_arrows=resp_df, id='patient', arrow_start='end_of_study',
                cont = 'resp_cont',name_col='resp_type',type = "open",cex=1)
+
 ###########################
 
-############Plot LIQUORICE outputs ###############
-samplemap <- read_tsv("C:/Work/transfer/LIQ_Rad_healthy/samplemap.tsv")
-cov <- read_tsv("C:/Work/transfer/LIQ_Rad_healthy/merged_cov.tsv")
-
-covlong <- melt(cov, 
-                id.vars=c("bin"),
-                variable.name="file",
-                value.name="coverage")
-
-cov$pos <- (cov$bin - 42)*500
-covlong$pos <- (covlong$bin - 42)*0.5
-covlong <- merge(x = covlong, y = samplemap, by = "file", all.x = TRUE)
-
-p<-ggplot(covlong, aes(x=bin, y=coverage, group=sample, color=cell_type)) +
-  geom_line() + geom_line() + theme_classic() +
-  scale_color_manual(values = c("red", "yellow", "orange")) +
-  facet_grid(. ~ cell_type) +
-  ylab("Bias-corrected coverage")
-p  
-
-p<-ggplot(covlong, aes(x=pos, y=coverage, group=sample, color=cell_type)) +
-  geom_line() + geom_line() + theme_classic() +
-  scale_color_manual(values = c("red", "yellow", "orange")) +
-  facet_grid(. ~ cell_type) +
-  ylab("Bias-corrected coverage") + xlab("distance from promoter (kbp)")
-p  
-############################################################################
