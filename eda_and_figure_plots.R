@@ -10,7 +10,7 @@ library(NMF)
 library(tidyverse)
 
 ######### Metadata #########
-samplemap <- read_tsv("results/samplemap.tsv")
+samplemap <- read_tsv("data/samplemap.tsv")
 samplemap$group <-factor(samplemap$group, levels=c("Healthy", "SCCHN", "OMD", "PMD"))
 
 samplemap$treatment <-factor(samplemap$treatment, levels=c("BL", "T1", "T2", "F1", "F2", "F3", "P1"))
